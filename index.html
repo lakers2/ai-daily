@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>AI 日报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="layout">
+    <aside class="rail" id="rail">
+      <div class="rail-brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <div class="brand-title">AI 日报</div>
+          <div class="brand-sub">Han’s Digest</div>
+        </div>
+      </div>
+      <nav class="archive" id="archive" aria-label="历史日报"></nav>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="打开归档">☰</button>
+        <div class="topbar-title">AI 日报</div>
+        <div class="pills" id="pills" aria-label="日期切换"></div>
+      </header>
+
+      <section class="hero" id="hero">
+        <div class="hero-skeleton">加载中…</div>
+      </section>
+
+      <section class="stories" id="stories" aria-live="polite"></section>
+
+      <footer class="site-footer">
+        <span>AI 日报 · 每日精选</span>
+        <span class="dot">·</span>
+        <span id="footerDate"></span>
+      </footer>
+    </main>
+  </div>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
