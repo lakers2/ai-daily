@@ -4,48 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="dark" />
+  <meta name="description" content="AI 日报 — 每日精选人工智能资讯" />
   <title>AI 日报</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <div class="bg-glow" aria-hidden="true"></div>
-  <div class="layout">
-    <aside class="rail" id="rail">
-      <div class="rail-brand">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <div>
-          <div class="brand-title">AI 日报</div>
-          <div class="brand-sub">Han’s Digest</div>
-        </div>
-      </div>
-      <nav class="archive" id="archive" aria-label="历史日报"></nav>
-    </aside>
+  <div class="page">
+    <header class="masthead">
+      <p class="masthead-eyebrow">Han’s Digest</p>
+      <h1 class="masthead-title">AI 日报</h1>
+      <p class="masthead-tagline">每日精选 · 前沿人工智能</p>
+    </header>
 
-    <main class="main">
-      <header class="topbar">
-        <button type="button" class="menu-btn" id="menuBtn" aria-label="打开归档">☰</button>
-        <div class="topbar-title">AI 日报</div>
-        <div class="pills" id="pills" aria-label="日期切换"></div>
-      </header>
+    <nav class="date-rail" id="dateRail" aria-label="历史日报"></nav>
 
-      <section class="hero" id="hero">
+    <main class="reader">
+      <section class="hero" id="hero" aria-live="polite">
         <div class="hero-skeleton">加载中…</div>
       </section>
 
       <section class="stories" id="stories" aria-live="polite"></section>
-
-      <footer class="site-footer">
-        <span>AI 日报 · 每日精选</span>
-        <span class="dot">·</span>
-        <span id="footerDate"></span>
-      </footer>
     </main>
+
+    <footer class="site-footer">
+      <span>AI 日报</span>
+      <span class="sep" aria-hidden="true">·</span>
+      <span id="footerDate"></span>
+    </footer>
   </div>
 
-  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
   <script src="assets/app.js"></script>
 </body>
 </html>
