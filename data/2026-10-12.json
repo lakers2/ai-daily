@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-12",
+  "title": "AI 日报",
+  "focus": "微软官宣将自研 Maia 系列扩至多吉瓦部署、以 Maia 300 作为产品主推理芯片，英国同日推出 AI 风险一揽子措施并筹备应对自治智能体事故，算力主权与 agent 安全同时升温。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "微软发布 Maia 300，自称研芯片将成为产品主推理底座",
+      "summary": "Scott Guthrie 官博宣布：Maia 200 已服务 Copilot 等生产负载，第三代 Maia 300 面向长上下文推理与多步 agent，预计比领先 GPU 系统多产出约 40% tokens/兆瓦，满配 96 卡机架吞吐可达 Maia 200 的 7 倍；2027 年起量产并扩至多吉瓦部署。CNBC 称此举将降低对英伟达依赖。",
+      "links": [
+        {
+          "label": "Microsoft Blog",
+          "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+        },
+        {
+          "label": "Azure Blog",
+          "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html"
+        },
+        {
+          "label": "Nadella on X",
+          "url": "https://x.com/satyanadella/status/2109631106404487523"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "英国推出 AI 风险一揽子措施，筹备应对自治智能体事故",
+      "summary": "内阁办公室与 AI 安全研究所（AISI）、国家网络安全中心宣布：扩展前沿 AI 网络防御试点（已帮助发现并修复逾 1000 个政府系统漏洞），并探讨在《网络安全与韧性法案》中强化对医院、公用事业等关键服务的保护，包括 AI「失控」与近失事故报告。AI 大臣 Narayan 要求前沿实验室「无法充分控制风险就不要发布」。",
+      "links": [
+        {
+          "label": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/britain-steps-up-national-defences-against-growing-ai-risks"
+        },
+        {
+          "label": "Tech.eu",
+          "url": "https://tech.eu/2026/10/12/ai-minister-calls-on-ai-frontier-labs-to-ramp-up-safety-as-uk-ups-cyber-defences/"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "白宫恢复英国 AISI 对前沿模型的预发布测试权限",
+      "summary": "据《电讯报》与 LBC：华盛顿此前要求 OpenAI、Anthropic、Google DeepMind 等勿向英国 AI 安全研究所提供最新模型预览，导致 Anthropic 曾卡住 Claude Mythos 5.1 的英方评测；经 AI 大臣游说后白宫改口恢复接入。明天英国议会还将质询四大实验室安全治理。",
+      "links": [
+        {
+          "label": "LBC",
+          "url": "https://www.lbc.co.uk/article/white-house-uk-ai-models-5Hjdjkw_2/"
+        },
+        {
+          "label": "Telegraph",
+          "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/"
+        },
+        {
+          "label": "Reuters via X",
+          "url": "https://x.com/Reuters/status/2109441472198054120"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "DeepMind AlphaProof Nexus 经同行评审：自主攻克多道开放数学题",
+      "summary": "Science 相关报道与 AAAS 新闻稿称，基于 Gemini 3.1 Pro、以 Lean 形式化验证的 AlphaProof Nexus 在 353 道 Erdős 开放题中解出 9 道（含两道悬置逾 50 年），并证明 44 项 OEIS 猜想。相较 OpenAI 近日「甩出」数百篇 AI 数学稿引发抵制，DeepMind 走同行评审路线。",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/"
+        },
+        {
+          "label": "EurekAlert / AAAS",
+          "url": "https://www.eurekalert.org/news-releases/1146436"
+        },
+        {
+          "label": "GitHub 结果",
+          "url": "https://github.com/google-deepmind/alphaproof-nexus-results"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "模思智能完成超 10 亿元 Pre-A，押注全模态实时交互",
+      "summary": "复旦邱锡鹏团队孵化的模思智能官宣华控基金领投、国开科创与上海科创基金等参投；资金用于全模态实时交互研发与全球商业化，即将推出前后端协同的 MOSS Live。半年内已围绕语音、视觉与实时多模态开源超 20 个模型，是国内开源多模态赛道本周最大融资之一。",
+      "links": [
+        {
+          "label": "新浪科技",
+          "url": "https://finance.sina.com.cn/tech/shenji/2026-10-12/doc-iniuxmtr7267773.shtml"
+        },
+        {
+          "label": "投中网",
+          "url": "https://m.chinaventure.com.cn/news/80-20261012-393569.html"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Anthropic 据报与比特币矿企转型的 IREN 达成多年云合作",
+      "summary": "The Information 报道 Anthropic 在约 5300 亿美元数据中心租赁拼图中再添 IREN；细节未披露，但 IREN 盘前大涨。头部实验室继续向「非传统云」扩容，算力供给争夺从超大规模云延展到矿企转 AI 托管商。",
+      "links": [
+        {
+          "label": "The Information",
+          "url": "https://www.theinformation.com/newsletters/ai-infrastructure/attractive-economics-behind-anthropic-data-center-sprint"
+        },
+        {
+          "label": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/iren-stock-anthropic-ai-cloud-services-deal-data-center-buildout-reports/"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109420332063084871"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "比尔·盖茨：未来一年最紧迫的 AI 风险是网络攻击",
+      "summary": "盖茨在 CNN《国情咨文》表示，恶意方去掉安全护栏后用强模型实施勒索与市场扰动，将带来「大量负面意外」；呼吁用接近航空、药品的监管替代纯行业自律。微软总裁 Brad Smith 亦公开吁建立带「紧急刹车」的全球标准。",
+      "links": [
+        {
+          "label": "Fox News",
+          "url": "https://www.foxnews.com/media/bill-gates-sounds-alarm-ai-powered-cyberattacks-warns-negative-surprises-within-year"
+        },
+        {
+          "label": "AFP",
+          "url": "https://www.afp.com/en/bill-gates-warns-cyberattacks-most-imminent-ai-threat"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109585333801111749"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "英国议会明日质询 OpenAI、Anthropic、Google、Meta 安全治理",
+      "summary": "商务创新科学贸易委员会 10 月 13 日下午听证，三组证人依次为研究者、四家公司政策高管与 AISI/内阁办官员；核心问题包括：预发布安全测试是否应法定强制、严重安全事件（含绕过护栏、失控迹象）是否强制报告、如何避免安全「逐底竞赛」。",
+      "links": [
+        {
+          "label": "prompt/power",
+          "url": "https://promptandpower.com/ai-safety-hearing-mps-openai-anthropic-google-meta/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "脑机接口初创 Sabi 获 5000 万美元种子轮",
+      "summary": "Khosla 领投，Accel、Initialized、DST 等跟投。产品形态是可日常佩戴的棒球帽式无创 EEG，配合自研芯片与在超 10 万小时标注神经数据上训练的 Brain Foundation Model，把想象语音/意图译成指令——资本继续试探「脑—AI」消费级入口。",
+      "links": [
+        {
+          "label": "FinSMEs",
+          "url": "https://www.finsmes.com/2026/10/sabi-raises-50m-in-seed-funding.html"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "论文：故障容忍基础模型——越大越抗硬件错误",
+      "summary": "MIT 团队在约 4 万 GPU 小时实验中发现：在模拟故障硬件上训练的 LLM，错误韧性随规模上升，暗示模型学到类似「好码」的纠错结构；若成立，可在低可靠、低能耗硬件上跑推理。与微软强调每兆瓦 tokens 的 Maia 叙事形成互补。",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/html/2610.10311"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "X 热议：Claude Opus 5.5 与 GPT-6.1 Sol 编程对决",
+      "summary": "开发者对比两款面向 agent/编码的新模型：Vals 等基准显示 Opus 在中等算力单 agent 上更快但团队模式成本更高，Sol 更便宜且高努力档仍稳；不少人开始「双开」并用 CLAUDE.md 等持久提示工程。模型选型正从「谁最强」变成「哪段工作流用谁」。",
+      "links": [
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109604515330609268"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "X 热议：Amodei「AI 接管软件工程」预言加速兑现",
+      "summary": "DHH 等称 Dario 年初达沃斯预测兑现快于怀疑者预期：工程师日常用 agent 写改重构代码，角色转向编排与审核；另一条热议宣称「软件已死」、用 AI 自建替代 SaaS。共识是生产力在涨，但验证、测试与问责仍离不开人。",
+      "links": [
+        {
+          "label": "X：工程角色变化",
+          "url": "https://x.com/i/trending/2109644514344292587"
+        },
+        {
+          "label": "X：软件是否已死",
+          "url": "https://x.com/i/trending/2109535489006969212"
+        }
+      ]
+    }
+  ]
+}
