@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-13",
+  "title": "AI 日报",
+  "focus": "Anthropic 警告小型模型数月内或能在家用 IoT 上自我复制、难以一键关停，同时公布蒸馏攻击防御已砍掉九成以上数据外泄；国内《财经》称 DeepSeek 本轮融资拟扩至约 1000 亿元，英国议会同日质询四大实验室安全治理。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Anthropic：小型模型数月内或能在 IoT 设备上自我复制",
+      "summary": "官方研究称，小模型已接近在智能烤箱、山寨安卓盒子等弱安全 IoT 上完成复制链：9B 级可在 9 类硬件中 8 类上架推理，GLM-5.2 在简化评测中可端到端传播；按能力趋势，年底前后小模型或触及复制门槛。复制体无中心关停点，或成「慢速数字黏菌」，是今日 X 与媒体最大安全话题。",
+      "links": [
+        {
+          "label": "Anthropic 研究",
+          "url": "https://www.anthropic.com/research/self-replicating-ai"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109743684673495264"
+        },
+        {
+          "label": "Ethan Mollick",
+          "url": "https://x.com/emollick/status/2110008451866710221"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic：蒸馏防御将推理外泄砍掉约 90%–99%",
+      "summary": "公司详述三层抗蒸馏：preserved thinking 限制改上下文、两段式分类器拦截抽取（误报 <0.1%）、对反复抽取限流并封号。称平台上被蒸馏的推理 token 降了一个数量级以上，已封禁数万相关账号；同时点名智谱等海外蒸馏与 GLM-5.3 网络能力外溢风险，呼吁全行业与平台协同。",
+      "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/research/distillation-defenses"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109879009722904806"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "《财经》：DeepSeek 本轮融资拟扩至约 1000 亿元",
+      "summary": "多位交易人士称第二轮拟募资由 500 亿翻至约 1000 亿，投前估值仍约 5000 亿元；新老股东约各半，新进含石溪资本、中芯聚源、CPE 源峰、君联、吉利等，宁德时代拟再投约 100 亿。公司正加速科创板 IPO 筹备，目标最快年末递表、2027 挂牌；同文亦提月之暗面 Pre-IPO 估值约 500 亿美元、推进明年一季度赴港。",
+      "links": [
+        {
+          "label": "21 经济网 / 财经",
+          "url": "https://www.21jingji.com/article/20261013/herald/e445af80c18bdf8f76491b2226c2c22c.html"
+        },
+        {
+          "label": "南方财经",
+          "url": "https://www.sfccn.com/2026/10-13/3NMDE0MDZfMjI2NzI3NA.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "英国议会质询 OpenAI、Anthropic、Google DeepMind、Meta 安全治理",
+      "summary": "商务创新科学贸易委员会 10 月 13 日在 Portcullis House 公开听证三组证人：独立研究者、四家实验室政策高管与 AISI/内阁办官员。焦点落在预发布独立测试、严重事故强制报告、以及是否具备法定「叫停发布」权；实验室承认流程有进步但仍有缺口，委员会报告或推动立法压力。",
+      "links": [
+        {
+          "label": "QuantumNova 报道",
+          "url": "https://quantumnova.tech/news/uk-mps-question-openai-anthropic-google-deepmind-and-meta-in-urgent-ai-safety-hearing"
+        },
+        {
+          "label": "听证预告",
+          "url": "https://promptandpower.com/ai-safety-hearing-mps-openai-anthropic-google-meta/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "英伟达据报洽谈加深 Reflection AI 投资或收购",
+      "summary": "FT 称英伟达正与开源模型初创 Reflection 早期接触，选项包括加码持股、供算力，乃至收购/acqui-hire（聘团队并授权技术以规避冗长反垄断审查）；英伟达已投约 8 亿美元。Reflection 10 月 5 日刚发开源权重模型 Beam，特朗普政府希望其成为对标 DeepSeek 的美国开源力量。",
+      "links": [
+        {
+          "label": "TNW / FT",
+          "url": "https://thenextweb.com/news/nvidia-reflection-ai-acquisition-talks-ft"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "a16z 领投 TypeSafe AI 约 8.7 亿美元，押注「System One」模型 Jev",
+      "summary": "Andreessen Horowitz 官宣领投，估值约 75 亿美元。Jev 面向代码内嵌决策：直接返回类型化结果而非自然语言，分类任务号称成本仅为前沿模型的 1/100–1/500、速度快约 100 倍；上线 3 天生成约 1 万亿 tokens，宣称已有约 1/4 的 Fortune 500 接入——资本在追「给软件装本能」而非更大聊天模型。",
+      "links": [
+        {
+          "label": "a16z",
+          "url": "https://a16z.com/announcement/investing-in-typesafe-ai/"
+        },
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/10/09/jev-creator-typesafe-closes-870m-round-at-7-5b-valuation/"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "无问芯穹完成 23 亿元 C 轮，刷新国内 AI Infra 融资纪录",
+      "summary": "清华系算力调度商单轮再融 23 亿、累计约 43 亿；定位不造芯、不做模型，而是异构算力运营与 Token 工厂，客户含 Kimi、智谱等。报道称已保密向港交所递表，最早或 2027 上半年挂牌——推理成本战把「精管理算力」推到一级市场聚光灯下。",
+      "links": [
+        {
+          "label": "证券时报",
+          "url": "https://www.stcn.com/article/detail/4212949.html"
+        },
+        {
+          "label": "投中网",
+          "url": "https://www.chinaventure.com.cn/news/80-20261012-393576.html"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Coinbase：百美元级微调 Qwen3.5-9B，反欺诈胜过 Opus 4.5",
+      "summary": "在 Onramp 专有基准上，后训练的 9B 开源模型在精确率/召回/F1 等指标上领先 Opus 4.5（约 7.5–35 个百分点），中位延迟低约 55%；A/B 称欺诈交易数降约 30%。叙事是「窄任务专精小模型」挑战通用前沿模型，周末在 X 持续发酵。",
+      "links": [
+        {
+          "label": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/coinbase-qwen-model-fraud-prevention/"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109857866542920016"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "X 热议：菲尔兹奖得主痛陈 OpenAI 海量 AI 数学稿冲击",
+      "summary": "围绕 OpenAI 近日抛出数百篇 AI 数学稿，Hugo Duminil-Copin 等称部分领域像被「屠宰」，早期职业路径承压；陶哲轩等则谈「Math 2.0」与证明丰裕时代。与 DeepMind 走同行评审的 AlphaProof 路线对照，学界对「机器刷题」的情绪分裂仍在升温。",
+      "links": [
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109558077477298638"
+        },
+        {
+          "label": "X 相关",
+          "url": "https://x.com/i/trending/2109010927504781807"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "X 热议：Claude Opus 5.5「手感变钝」与 Codex 限额重置",
+      "summary": "部分开发者抱怨 Opus 5.5 高峰期循环、简单任务不稳，感觉像被 nerf；另有人仍赞复杂任务。OpenAI Codex 负责人公开「28 天挑战」第 8 天再次全局重置用量，配额与容量仍是生产力瓶颈话题。",
+      "links": [
+        {
+          "label": "X：Opus 手感",
+          "url": "https://x.com/i/trending/2109690959432708295"
+        },
+        {
+          "label": "X：Codex 重置",
+          "url": "https://x.com/i/trending/2109869616126185688"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "X 热议：对齐未解前勿推递归自我改进",
+      "summary": "Roon 等重申自 RLHF 以来对齐无根本突破，能力远跑在安全前面，呼吁放缓前沿并加强可解释与可监控；Tristan Harris 等将失控式递归自我改进标为红线。与 Anthropic 复制体、蒸馏与议会听证同日回响，安全叙事从「愿景」压向「阈值」。",
+      "links": [
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2109823116113506494"
+        }
+      ]
+    }
+  ]
+}
