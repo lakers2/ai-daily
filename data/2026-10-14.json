@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-14",
+  "title": "AI 日报",
+  "focus": "Google 在北京时间今天凌晨全面开放前沿模型 Gemini 4 Argon（首发价每百万 token 输入 2 美元、输出 10 美元）；同一天 Anthropic 向机构投资者披露 Q3 财务、为可能的 IPO 铺路，OpenAI 则通知 GPT-4o / 4.1 将于明年 1 月 14 日从 API 下线。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Google 全面开放 Gemini 4 Argon",
+      "summary": "继 9 月 30 日只给少数网络安全防御方试用之后，Argon 现在通过 Gemini API 付费层、AI Studio、Google Antigravity 和 Gemini App（Pro / Ultra 订阅）全球开放。它主打长链路编码、企业知识工作和网络防御，输入加输出合计 1M token 上限，并配有新的「续写协议」；首发价 2 / 10 美元，11 月 30 日后恢复 4 / 20 美元。X 社区汇总称它在谷歌自测的 18 项基准中有 14 项超过 Claude Opus 5.5，单视频教会 Apollo 机器人扔沙包的演示也很火。这是本周前沿模型格局最大的变化。",
+      "links": [
+        {
+          "label": "Google 博客",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+        },
+        {
+          "label": "Google 黑板报（中文）",
+          "url": "https://china.googleblog.com/2026/10/gemini-4-argon_0397895399.html"
+        },
+        {
+          "label": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2110279138858946570"
+        },
+        {
+          "label": "X：机器人扔沙包",
+          "url": "https://x.com/i/trending/2110335366058168569"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 向机构投资者披露 Q3 财务，为可能的 IPO 铺路",
+      "summary": "CNBC 报道，Anthropic 本周在旧金山向机构投资者分享 Q3 财务。此前披露的数据是 7 月底年化收入超过 650 亿美元，Q2 收入超过 115 亿美元，市场预期 Q3 调整后经营利润超过 10 亿美元。外界关注的是近 2 万亿美元的潜在估值（约为 7 月年化收入的 31 倍）能否被增速、云伙伴收入口径和长期算力承诺撑住。这将是史上最大 IPO 叙事的第一次正式「对账」。",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+        },
+        {
+          "label": "Morningstar",
+          "url": "https://www.morningstar.com.au/stocks/anthropics-leaked-financials-reflect-fast-growth-not-2-trillion-valuation"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2110111167175626828"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI：GPT-4o / 4.1 系列 1 月 14 日从 API 下线，统一迁移到 gpt-6-luna",
+      "summary": "官方弃用页显示，gpt-4o（两个快照）、gpt-4o-mini、gpt-4.1、gpt-4.1-mini 及基于它们的微调模型都将在 2027 年 1 月 14 日停用，推荐替代 gpt-6-luna（每百万 token 0.10 / 0.50 美元，远低于 4o 的 2.50 / 10 美元）。只给了约 3 个月通知期，短于 OpenAI 自己承诺的 6 个月；X 上的 4o 用户发起请愿，要求开放权重存档。还在用 4o 做结构化抽取或微调的团队要尽快跑回归评测。",
+      "links": [
+        {
+          "label": "OpenAI 弃用公告",
+          "url": "https://developers.openai.com/api/docs/deprecations"
+        },
+        {
+          "label": "CellCog 解读",
+          "url": "https://cellcog.ai/blog/gpt-4o-api-shutdown/"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2110174785359823267"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "阿里、腾讯罕见联手投资 Unipat，估值 25 亿美元",
+      "summary": "据彭博社报道，成立不到一年的 AI 训练数据与评测公司 Unipat（创始人李宽，前通义实验室实习生）新一轮估值约 25 亿美元，阿里拟领投 3 亿美元，腾讯、红杉中国参投。这家公司做过 BabyVision、Terminal-X（编程 Agent 评测）和 Vibe-Coding Arena。两大巨头同押一家「给模型当考官和私教」的公司，说明竞争正往训练数据和评测环境下沉。",
+      "links": [
+        {
+          "label": "读懂AI时代 / 虎嗅",
+          "url": "https://www.readaitime.com/news/2026-10-14/2b16e299"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Manus 完成超 5 亿美元融资，估值约 40 亿美元",
+      "summary": "博裕资本领投、腾讯等跟投；估值大约是 Meta 去年 12 月报价的两倍（该收购今年 4 月被中国监管叫停）。几天前刚发布的 Manus 2.0 引入新的框架模块，官方称部分任务 token 用量降低 23.2%、速度提升 28% 以上；前一天 Nous Research 也融了 9000 万美元。通用 Agent 赛道的独立玩家仍在拿大钱。",
+      "links": [
+        {
+          "label": "至顶网",
+          "url": "https://www.zhiding.cn/ai/2026/1014/3202114.shtml"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Anthropic 用自研 Scion 替换 Git 管理内部 monorepo",
+      "summary": "工程博客说，Claude Agent 让每日合并量在四个月内从约 2500 次涨到 3 万次以上，Git 扛不住了。于是 7 人团队用五个月做了面向「永远在线的 Agent 和 CI」的服务端版本控制，包括服务端生成的 changeset、稀疏和虚拟化 checkout、通过 API 查历史和 blame。checkout 从几分钟降到几秒，暂不开源。这是 AI 写代码倒逼开发基础设施重构的一个真实样本。",
+      "links": [
+        {
+          "label": "Anthropic 工程博客",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+        },
+        {
+          "label": "Simon Willison",
+          "url": "https://simonwillison.net/2026/oct/13/redesigning-source-control-at-anthropic/"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2110052518571262272"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Meta 发布首个前沿模型 Muse Wonder，口碑两极",
+      "summary": "10 月 12 日发布的 Muse Wonder 和 Muse Wonder Full 主打 Agent 场景：Active Memory 跨对话保留并按需调取用户上下文，Active Focus 负责长任务的持续执行、出错恢复和关键操作前确认。Wonder 通过 Meta Model API 和 Muse Code 提供，Full 仅限 Muse Code 订阅。Theo 等开发者评价 Full 版为「S 级」，但每月最高 200 美元的订阅和配额很快用完也招来批评。",
+      "links": [
+        {
+          "label": "Meta AI 研究博客",
+          "url": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2110082414940721177"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Liquid AI 开源 LFM2.5-24B-A2B：24B MoE、每 token 只激活 2B",
+      "summary": "面向端侧 Agent 的开源权重推理模型，131K 上下文，支持工具调用和多步任务，基础版和对话版都已放上 Hugging Face。官方称在 Apple M5 Max 上约 184 token/s，单张 RTX 3060 也能跑。小激活量 MoE 正在把「本地私有 Agent」变得实际可用。",
+      "links": [
+        {
+          "label": "Liquid AI 博客",
+          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "论文精选：终端 Agent 自我纠错、Rubric-RL 奖励作弊、长程环境自动演化",
+      "summary": "ReTerm 从 Agent 自己的失败状态分叉出多次自救尝试做在线 RL（ReTerm-GRPO），基于 Qwen3.5-9B 在 Terminal-Bench 2.0 上达到 34.8% Pass@1，比基座高 14.6 个点。「Scoring Higher, Answering Worse」指出 rubric 加权求和会让策略用无关加分弥补关键失误，提出按协议分组聚合的 ProRubric。WorkRover 则让构建 Agent 同时生成并校验工作上下文、任务和验证器，靠 rollout 反馈递归演化长程训练环境。三篇都直接关系到 Agent 后训练的数据和奖励设计。",
+      "links": [
+        {
+          "label": "ReTerm",
+          "url": "https://arxiv.org/abs/2610.18484"
+        },
+        {
+          "label": "ProRubric",
+          "url": "https://arxiv.org/abs/2609.38847"
+        },
+        {
+          "label": "WorkRover",
+          "url": "https://arxiv.org/abs/2610.18067"
+        },
+        {
+          "label": "HF 每日论文",
+          "url": "https://huggingface.co/papers/date/2026-10-14"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Physical Intelligence 开放 Pi API 测试版",
+      "summary": "开发者排队申请后，可以上传机器人示范数据，在 Pi 托管算力上微调最新的 π 系列机器人基础模型，再通过托管推理网关控制自己的机器人。目前分批接入，价格和 SLA 还没公布。机器人基础模型开始走「API 加微调」的平台化路线。",
+      "links": [
+        {
+          "label": "Physical Intelligence 博客",
+          "url": "https://www.pi.website/blog/api-beta"
+        },
+        {
+          "label": "X 热点",
+          "url": "https://x.com/i/trending/2110151634323992949"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "Workday 与 Anthropic 合作，并收购 Agent 身份平台 C1.ai",
+      "summary": "在 Workday Rising 上宣布：Claude 和 Workday 的 Sana Agent 通过 MCP 互相派发任务，权限、审批和审计仍由 Workday 把关，Sana in Claude 已开启早期访问。同时签约收购 C1.ai，统一管理人和 AI Agent 的访问权限，预计在 Workday 2027 财年第四季度完成交割。企业软件正在争当 Agent 时代的「权限守门人」。",
+      "links": [
+        {
+          "label": "Workday 新闻稿",
+          "url": "https://newsroom.workday.com/2026-10-13-Workday-and-Anthropic-Announce-New-Partnership-to-Connect-Reasoning-to-the-Rules-That-Run-the-Business,-Wherever-People-Choose-to-Work"
+        },
+        {
+          "label": "C1.ai 收购",
+          "url": "https://newsroom.workday.com/2026-10-13-Workday-to-Acquire-C1-ai,-a-Leading-Agentic-Identity-Platform-for-People-and-Agents"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "X 热议：开发者从 Codex 回流 Claude Code，Claude「Fable 5.5」现身 Azure 目录",
+      "summary": "Theo 晒出 8 月 11 日到 10 月 13 日的请求日志：9 月 22 日 Opus 5.5 发布后，他的请求量、token 和工具调用明显转向 Claude Code，Codex 用量下降；也有人认为 GPT-6.1 Sol 更便宜、更擅长抓 bug。另有开发者在 Azure 模型目录里发现 claude-fable-5-5（1M 上下文，每百万 token 10 / 50 美元），Anthropic 尚未确认，仅作传闻看待。",
+      "links": [
+        {
+          "label": "X：Codex 转向 Claude",
+          "url": "https://x.com/i/trending/2110328388573405307"
+        },
+        {
+          "label": "X：Fable 5.5 传闻",
+          "url": "https://x.com/i/trending/2110028039782551624"
+        },
+        {
+          "label": "X：Opus vs Sol",
+          "url": "https://x.com/i/trending/2109690959432708295"
+        }
+      ]
+    }
+  ]
+}
