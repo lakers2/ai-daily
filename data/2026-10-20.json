@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-20",
+  "title": "AI 日报",
+  "focus": "美国国土安全部正式禁止联邦民用机构使用 DeepSeek；同日 DeepSeek 开源生产推理栈 DeepInfer，Meta 放出可在单卡消费级 GPU 上跑的端侧 agent 模型 Muse Glimmer——监管收紧与开源加速在同一天交锋。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "美国 DHS 禁止联邦民用机构使用 DeepSeek，联邦公报今日刊登",
+      "summary": "国土安全部依据联邦采购供应链安全相关审查，要求民用行政部门从 IT 系统和采购中排除杭州深度求索及其关联产品与服务，已部署的也要移除；例外需提前 60 天申请并给出「令人信服的理由」。部长马克韦恩·穆林称模型数据可能存于中国服务器、存在敏感信息外泄与大规模数据采集风险。这是目前被点名的唯一中国开源模型，CyberScoop 指出禁令信件日期为 6 月 26 日，公告今日见报。军事与情报体系不在此令范围内。",
+      "links": [
+        {
+          "label": "CyberScoop",
+          "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/"
+        },
+        {
+          "label": "Federal Register 公告页",
+          "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2111803212139569662"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Meta 开源 Muse Glimmer 30B：为端侧 agent 打造，Apache 2.0，约 4-bit 单卡可跑",
+      "summary": "10 月 19 日 Meta 发布技术报告：30B 因果语言模型，带感知编码器，面向多步推理、工具使用与失败恢复，支持图文输入、百余种语言训练数据。官方称在同尺寸开源里工具使用与 agent 任务上超过 Gemma4-31B、Qwen3.6-27B；量化后约 4-bit，目标单张消费级 GPU / Mac 本地常驻。许可证为 Apache 2.0（真开源）。这是 Meta 自己的评测说法，第三方榜单上已有人把它排在开源中游。",
+      "links": [
+        {
+          "label": "Meta AI 研究页",
+          "url": "https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/"
+        },
+        {
+          "label": "AIatMeta 原帖",
+          "url": "https://x.com/AIatMeta/status/2112265822274302066"
+        },
+        {
+          "label": "X 话题摘要",
+          "url": "https://x.com/i/trending/2112284686995136549"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "DeepSeek 开源生产推理框架 DeepInfer（Apache 2.0）",
+      "summary": "10 月 20 日 DeepSeek 把支撑大规模线上服务的推理栈 DeepInfer 开源：优化 kernel、注意力/MoE 并行、带草稿 token 的推测解码、异步调度等；支持 NVIDIA SM100 与华为昇腾 950。公司称旨在降低算力与能耗成本。发布以离线推理为主，KV cache、prefill/decode 分离与负载均衡需自行补齐。效率数字尚无独立复现；正值联邦禁令见报，开源服务栈与监管叙事形成对照。",
+      "links": [
+        {
+          "label": "Quartz",
+          "url": "https://qz.com/deepseek-open-source-deepinfer-inference-software-ai-102026"
+        },
+        {
+          "label": "DeepSeek open-infra 索引",
+          "url": "https://github.com/deepseek-ai/open-infra-index/tree/main/OpenSourcing_DeepSeek_Inference_Engine"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112514538801098954"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "NVIDIA 发布 Nemotron 3.5 Super VL（120B）与端侧 Bolt 系列",
+      "summary": "10 月 19 日推出面向企业常驻 agent 的开源权重 Super VL（120B，参数少于 Nemotron 3 Ultra，官方称指令遵循与工具使用接近），以及面向 RTX Spark / DGX Spark AI PC 的 Bolt：74B-A9B（约 24GB）现已可用，更小的 Bolt E4B 本月晚些时候推出。NVIDIA 称在文档智能、财务、科研、医疗理赔、安全韧性等后训练 agent 任务上快过 Opus 5、GPT-6.1 Sol 等，并点名 Skydance、EY、Ramp、CrowdStrike、Perplexity、Salesforce 等客户——均为厂商说法。",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "MiniMax 发布 M3.1 Flash：agent 成本自称降 70%，权重约 10 月 23 日开放",
+      "summary": "428B MoE（约 23B 激活）、1M 上下文，API 价 $0.15/M 输入、$0.60/M 输出；官方称推理近 3 倍速、agent 使用成本降 70%，并在 Automation-Bench、DeepSWE、CyberGym 等给出接近顶流的分数。VentureBeat 援引 Artificial Analysis：Intelligence Index 42，但 AA-Omniscience 幻觉率按该基准定义高达 93%（错答时几乎从不认不确定）。权重仍未开源，计划 10 月 23 日放出，许可条款未定。",
+      "links": [
+        {
+          "label": "MiniMax 官方博客",
+          "url": "https://www.minimax.io/blog/minimax-m31f"
+        },
+        {
+          "label": "VentureBeat",
+          "url": "https://venturebeat.com/technology/minimaxs-new-m3-1-flash-beats-deepseek-and-opus-5-on-a-key-business-benchmark-at-lower-cost-but-with-a-high-hallucination-rate"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "前 OpenAI 工程师被控在高管会议室安装窃听设备，DOJ 通报更新",
+      "summary": "沙特籍工程师 Abdulrahman Alfozan（2025 年 7 月入职）10 月 9 日被捕，被控使用电子设备窃听口头通信：检方称 9 月 28 日左右把加密录音设备藏在卫生纸里塞进高管会议室电视 USB 口，10 月 5 日又被拍到查看设备，包里另有第二台类似设备。DOJ 新闻稿 10 月 13 日发布、19 日仍有更新；FBI 与国家情报总监强调「超级智能」竞争下的反间谍。尚无公开证据表明其窃取了权重或源码；若定罪最高可判 5 年。",
+      "links": [
+        {
+          "label": "美国司法部新闻稿",
+          "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai"
+        },
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cwg5jq4vlddzo"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Inception 发布扩散语言模型 Mercury 3：自称 >1000 tok/s",
+      "summary": "10 月 19 日发布：并行生成 token 的 dLLM，宣称体量比 Mercury 1 大 40 倍以上仍保持千级 tokens/秒，1M 上下文；官方对比称在多项基准上超过 GPT-6 Luna 与 Claude Haiku 5.5。上市价 $0.20/$0.70 每百万 token，开售五折 $0.10/$0.35。已上 Inception API、OpenRouter、Baseten、Vercel。速度与对标分数均为公司声明，待第三方复现。",
+      "links": [
+        {
+          "label": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20261019090400/en/Inception-Launches-Mercury-3-Setting-a-New-Pareto-Frontier-in-Speed-and-Intelligence"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112240832120025351"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Meta 详解俄亥俄 Prometheus 超算：训练 Muse Wonder，目标扩至约百万卡",
+      "summary": "10 月 19 日 Meta 工程师 Kevin Lee 等公开 Prometheus（俄亥俄 New Albany）细节：一期已完成并训练了 Muse Wonder 等；规划扩至约 100 万 GPU，现跑 GB200/GB300 NVL72，Vera Rubin 即将接入。官方披露预训练 goodput >85%、RL >90%，训练中断间隔约 4.7 万 GPU 小时、固件修复后超 5.4 万；相对 2025 年中峰值中断率下降约 99%。每个 NVL72 域实际训练用 64/72 卡、其余作热备。社区向导与就业数字见 Meta 数据中心社区稿；以上可靠性数字见 StorageReview 对工程博文的转述。",
+      "links": [
+        {
+          "label": "Meta Data Centers 博客",
+          "url": "https://datacenters.atmeta.com/2026/10/new-albany-where-ohios-community-spirit-meets-the-frontier-of-ai/"
+        },
+        {
+          "label": "StorageReview（转述工程细节）",
+          "url": "https://www.storagereview.com/news/meta-prometheus-gigawatt-supercluster-1-million-gpus-gb200-gb300-nvl72"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112256406745207195"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Google Cloud AI Research 开源 Harness²：固定权重、递归改 agent 外壳",
+      "summary": "论文与代码提出在开放世界任务流上，不改模型权重，用 Propose–Probe–Compose 对比式递归改进 prompt、工具、记忆、技能等 harness，并把经验写入持续改进库。报告称单步即可在 WorkBuddy-Bench 上最高 +11.5、法律 LAB Partial +11.8 个百分点等；代码仓库 google-research/harness2。对做 agent harness / 后训练的人很有参考价值；数字均为论文自报。",
+      "links": [
+        {
+          "label": "arXiv HTML",
+          "url": "https://arxiv.org/html/2610.14224"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/google-research/harness2"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112543196727357508"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Amnon Shashua 新公司 doubleAI 融资 2 亿美元，推出「代码执行模型」Maxwell",
+      "summary": "前 Mobileye CEO 创办的 doubleAI 完成 Lightspeed 与 Bessemer 领投的 A 轮约 2 亿美元，估值报道超 10 亿美元。产品定位不写代码、而优化程序在 CPU/GPU 上的执行：Maxwell 分析运行中的程序与硬件并改写底层指令，公司称有形式化验证保证行为不变，数据管道加速 >38×、推理 kernel >4.5×——均为公司自述、未经独立验证。现已开放早期申请。",
+      "links": [
+        {
+          "label": "Calcalist / Ctech",
+          "url": "https://www.calcalistech.com/ctechnews/article/sk11xpc73ge"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "X 热议：开源模型在攻防基准上逼近闭源，以及「智力饱和」后的速度与成本",
+      "summary": "Vals AI 相关讨论称 DeepSeek V4.1 Flash 在模拟企业网渗透基准上完成目标数超过 GPT-6 Sol，且 token 成本更低（属第三方评测，方法与复现性仍有争议）。另一条热帖指出：开发者侧 10 分智力提升带来的流量增幅已从 2025 年末约 69% 降到约 20%，「够用」后竞争转向可靠性、价格与工具链。监管禁 DeepSeek 与开源攻防能力同屏出现，讨论很吵。",
+      "links": [
+        {
+          "label": "X：DeepSeek 攻防基准讨论",
+          "url": "https://x.com/i/trending/2112525486228156479"
+        },
+        {
+          "label": "X：智力边际收益下降",
+          "url": "https://x.com/i/trending/2112287617815306316"
+        }
+      ]
+    }
+  ]
+}
