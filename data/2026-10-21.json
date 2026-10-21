@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-21",
+  "title": "AI 日报",
+  "focus": "Anthropic 最快本周五公开提交 S-1，史上最大 IPO 进入倒计时；同一天 OpenAI 模型登陆对手 Google Cloud，NVIDIA 在 GTC 柏林把「agent 安全」做成了一整套硬件架构。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 最快周五公开提交 S-1，IPO 冲刺 11 月上市",
+      "summary": "Yahoo Finance 援引三位知情人称，Anthropic 最快 10 月 23 日公开 S-1 招股书，此前 6 月已秘密递交草案；报道援引 WSJ 称其 2026 上半年收入 163 亿美元、净亏损超 800 亿美元，FT 称三季度收入 168 亿美元且经调整后盈利。注意：X 上疯传的「S-1 第 32 页警告 AI 时间旅行风险」目前无法核实，EDGAR 上还查不到 Anthropic 的公开 S-1，先当段子看。另外 10 月 18 日 Anthropic 已宣布拿出 5% 股份成立公益基金（需股东批准）。",
+      "links": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html"
+        },
+        {
+          "label": "Anthropic 秘密递交公告（6 月）",
+          "url": "https://www.anthropic.com/news/confidential-draft-s1-sec"
+        },
+        {
+          "label": "X 热议：「时间旅行」风险（存疑）",
+          "url": "https://x.com/i/trending/2112739594307514737"
+        },
+        {
+          "label": "Anthropic 公益基金",
+          "url": "https://www.anthropic.com/news/public-benefit-fund"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 前沿模型和 Codex 登陆 Google Cloud Model Garden",
+      "summary": "GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 今天起以私测形式向部分企业客户开放，可走 Google Cloud Marketplace 购买、抵扣云承诺额度，Codex CLI/桌面版也能直连；GA 计划在未来几周，之后还会进 Antigravity 和 Gemini 企业版。Google 称自己成了唯一同时提供三家头部闭源模型的超大云；OpenAI 强调微软仍是主要云伙伴。继 AWS 之后，竞争对手之间的分发合作再进一步。",
+      "links": [
+        {
+          "label": "OpenAI 公告",
+          "url": "https://openai.com/index/openai-models-google-cloud"
+        },
+        {
+          "label": "Google Cloud 博客",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112883740699480270"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "NVIDIA GTC 柏林：发布 OpenShell 参考架构，把 agent 沙箱做进芯片",
+      "summary": "黄仁勋主题演讲推出 OpenShell Reference Architecture：Vera Rubin 跑推理、Vera CPU 跑 agent harness、BlueField-4 DPU 上的 Sentry 做带外监控和硅级策略执行，NVIDIA 称越界的 agent 能在毫秒级被隔离。Anthropic、OpenAI、Google Cloud、Meta、微软等被列为合作方。「agent 安全是工程问题」成为今天的主旋律。",
+      "links": [
+        {
+          "label": "NVIDIA 新闻稿",
+          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture"
+        },
+        {
+          "label": "Keynote 直播回顾",
+          "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/"
+        },
+        {
+          "label": "AP 报道",
+          "url": "https://apnews.com/article/jensen-huang-ai-gtc-berlin-nvidia-a320db64110d99297381912605ebdc57"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "OpenAI 收购 Orchestra Bio，补强 Rosalind 生命科学线",
+      "summary": "Orchestra 做的是帮药企管研发流程的 agent（追踪试验进度、预算、某批次生产失败会连带影响哪些环节），团队和平台并入 Rosalind，金额未披露（该公司此前融资约 2000 万美元）。这是继 Anthropic 4 月约 4 亿美元收购 Coefficient Bio 之后，头部实验室争夺制药工作流的又一步。",
+      "links": [
+        {
+          "label": "OpenAI 公告",
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "上千个 GPT-Rosalind agent 32 分钟读完小鼠全脑 CRISPR 图谱",
+      "summary": "OpenAI 与 PerturbAI、Scripps 合作，用数千个 agent 并行分析数百万个小鼠脑细胞的基因扰动数据并对照文献，生成可检验的假说，例如 Dctn1 被敲除后胆固醇合成相关基因上调、可能与 Perry 综合征神经退行有关。对做 agent 规模化科研的人很有参考价值；结论目前是假说，需要湿实验验证，相关预印本已上 bioRxiv。",
+      "links": [
+        {
+          "label": "OpenAI 博客",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
+        },
+        {
+          "label": "bioRxiv 预印本",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112908301625356787"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Radical Numerics：首个 AI 设计的噬菌体用于真人患者",
+      "summary": "公司称用 Omnii-1 模型设计了 T7 噬菌体变体，针对一名耐药大肠杆菌感染患者，实验室中能清除其菌株后，经 FDA 单患者同情用药途径给药。这是公司自己的说法，疗效和安全数据都未公开，也没有同行评审，只能说明「可行」。",
+      "links": [
+        {
+          "label": "Radical Numerics 博客",
+          "url": "https://www.radicalnumerics.ai/blog/omnii-phage"
+        },
+        {
+          "label": "纽约时报",
+          "url": "https://www.nytimes.com/2026/10/20/science/ai-virus-bacteria-radical-numerics.html"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Ornith-1.5-122B 开源（MIT）：单张 80GB 卡可跑的 MoE",
+      "summary": "官方称 SWE-bench Verified 0.845、TerminalBench 2.1 0.813，同尺寸开源领先，并提供 FP8、NVFP4、GGUF、MLX 版本，Ollama 一条命令本地跑。模型基于 Qwen3.5 继续预训练，社区有人质疑署名不够突出；跑分为自报，等第三方复测。",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112823807677190586"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "humans& 发布首个模型 Ampersand v0.1：为群聊和团队协作设计",
+      "summary": "Eric Zelikman 等人创立的 humans& 推出第一个模型，定位是长期陪团队推进个人和共同目标的「协作者」，通过长程模拟训练，内置隐私设计；API 兼容 OpenAI Agents 接口，无需排队。X 摘要称其在 Collaborative Intelligence 基准上 59.1%，为公司自评。",
+      "links": [
+        {
+          "label": "Ampersand 博客",
+          "url": "https://ampersand.humansand.ai/blog/"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112681478547255563"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Dream Labs 9000 万美元种子轮，Dream-1 零样本控制没见过的机器人",
+      "summary": "前 NVIDIA 研究员创立的 Dream Labs 出隐身，Dream-1 用视频训练的世界-动作模型，零样本驱动陌生双臂机器人做桌面任务（抓放、叠衣服），公开 API 每小时 3 美元（flash 版 2 美元）。早期测试者反馈精细操作还不够。",
+      "links": [
+        {
+          "label": "Dream-1 介绍",
+          "url": "https://dreamlabs.ai/research/dream-1/"
+        },
+        {
+          "label": "BusinessWire 融资稿",
+          "url": "https://www.businesswire.com/news/home/20261019230613/en/Dream-Labs-Raises-%2490M-Seed-to-Build-the-Brain-for-Everyday-Robots"
+        },
+        {
+          "label": "Forbes",
+          "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "蚂蚁 inclusionAI 开源 Ming-3.0 语音模型家族（MIT）",
+      "summary": "据 X 摘要，共五个模型覆盖 TTS、音频理解和语音识别，最小的 0.5B TTS 在 Artificial Analysis 的可控语音榜开源第一，支持七种语言和川话、粤语等方言，可用自然语言控制情绪、语速、笑声。适合做本地语音 agent；榜单成绩以官方/榜单页为准，本条仅来自 X 摘要。",
+      "links": [
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112231055432524074"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "X 热议：上千名数学家宣誓不碰 AI；Altman 内部讲「三条路」",
+      "summary": "「人类数学协会」成员已超 1000 人，全员承诺不为商业 AI 公司工作、不发表 AI 生成的数学文本，其中 600 多人还加入完全不用 AI 做研究的小组，争论很激烈。另一个话题：据 The Information，Altman 上周对员工讲了应对超级智能的三种方案（类 IAEA 国际机构、类 CERN 合并实验室、一家独大），他倾向第一种；这是二手报道，OpenAI 未公开确认。",
+      "links": [
+        {
+          "label": "New Scientist",
+          "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/"
+        },
+        {
+          "label": "AHM 成员页",
+          "url": "https://www.ahmath.org/members"
+        },
+        {
+          "label": "X 话题：数学家宣誓",
+          "url": "https://x.com/i/trending/2112708827166691527"
+        },
+        {
+          "label": "X 话题：Altman 三条路",
+          "url": "https://x.com/i/trending/2112386205996245100"
+        }
+      ]
+    }
+  ]
+}
