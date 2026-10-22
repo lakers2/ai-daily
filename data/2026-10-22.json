@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-22",
+  "title": "AI 日报",
+  "focus": "DeepSeek 据报一口气融资约 150 亿美元，就在美国联邦机构被要求下架它两天之后；同一天 Anthropic 推出主动式 agent 应用 Claude Duet，个人 agent 之战正式三方混战。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "DeepSeek 据报融资约 150 亿美元（约 1000 亿元人民币）",
+      "summary": "Bloomberg 报道，DeepSeek 完成中国史上最大规模之一的融资，潜在投资方包括宁德时代和腾讯；两天前美国刚要求联邦民用机构移除 DeepSeek 技术。它 6 月才以 500 亿美元估值融了 70 多亿美元，这轮资金将投向算力和开源模型。DeepSeek 尚未回应，目前是媒体报道而非官方公告。",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 发布 Claude Duet：会主动找你的个人 agent",
+      "summary": "独立 App（iOS/Android/网页），基于 Opus 5.5：每天早上发简报、盯着你连接的 Slack/邮件/日历、在自己的云端虚拟机里干活，发消息、付款、签字、删除前都会先问你。目前只对美国 Pro/Max 用户开放候补名单，共用套餐额度。正面对标 OpenAI 的 Dots 和 Meta 的 Muse，Anthropic 自己也承认它可能误判紧急程度。",
+      "links": [
+        {
+          "label": "Anthropic 官方介绍",
+          "url": "https://claude.com/resources/articles/claude-duet"
+        },
+        {
+          "label": "帮助中心（限制说明）",
+          "url": "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2112987690803343606"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Anthropic IPO 时间表更清晰：11 月 9 日那周开始路演",
+      "summary": "Reuters 称秋季科技 IPO 只剩 Anthropic 还在推进，计划 11 月 9 日那周向投资者路演、11 月中上市，内部估值预期约 1.5 万亿美元（WSJ 说可能到 2 万亿）。截至目前 EDGAR 上仍没有公开 S-1；WSJ 看到的草案显示上半年净亏损 807 亿美元，但据 Reuters，其中约 720 亿是可转债估值上升带来的会计费用，不是现金亏损。",
+      "links": [
+        {
+          "label": "Reuters 分析",
+          "url": "https://www.streetinsider.com/Reuters/Analysis-Anthropic+IPO+stands+alone+as+AI+market+jitters+sideline+others/27220169.html"
+        },
+        {
+          "label": "WSJ 草案独家",
+          "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "X 热议：Amodei 逐条回应安全批评者 Nathan Calvin",
+      "summary": "Calvin 列了 9 条「Anthropic 重能力轻安全」的例子，Amodei 在 X 上用 9 个「付出商业代价的安全决定」回应（如严格的生物防护、推迟发布 Mythos 级模型、支持芯片出口管制等），并承认三处沟通失误。帖子超 140 万浏览，IPO 前夕这场公开辩论格外受关注；双方说法都是各自立场，没有第三方裁定。",
+      "links": [
+        {
+          "label": "Amodei 原帖",
+          "url": "https://x.com/DarioAmodei/status/2112732230124818891"
+        },
+        {
+          "label": "TNW 解读",
+          "url": "https://thenextweb.com/news/dario-amodei-anthropic-race-to-the-top-nine-safety-decisions"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2113001630237122690"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Hassabis 把 AGI 预期从 3-5 年缩到 2-3 年",
+      "summary": "WSJ 长篇人物稿里，Demis Hassabis 说 AGI 已「越来越近」，并提出一个检验方法：只给 1901 年以前的知识，看 AI 能否重新推出爱因斯坦 1905 年的相对论论文。DeepMind 掌门人公开缩短时间线，X 上兴奋和怀疑（想想自动驾驶）的声音都很多。",
+      "links": [
+        {
+          "label": "WSJ",
+          "url": "https://www.wsj.com/tech/ai/demis-hassabis-ai-deepmind-google-isomorphic-2b4e3153"
+        },
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015277/google-deepminds-demis-hassabis-thinks-agi-is-two-to-three-years-away"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2113035835780001819"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Hugging Face 开源 Carbon-X：能用自然语言「聊 DNA」的 14B 模型",
+      "summary": "基于 Qwen3-14B，用 3020 亿 token 的 DNA+文本继续训练，再做 SFT 和可验证奖励 RL，能判断突变良性还是致病、找调控区并解释理由，Apache 2.0、单卡可跑，敏感基因数据不出本地。HF 自测平均 66.7%，接近 GPT-6.1 Sol 的 67.5%（官方数据，未独立验证）；训练数据刻意排除了病毒，且未经临床验证。",
+      "links": [
+        {
+          "label": "Hugging Face 模型卡",
+          "url": "https://huggingface.co/HuggingFaceBio/Carbon-X"
+        },
+        {
+          "label": "WIRED",
+          "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/"
+        },
+        {
+          "label": "TNW",
+          "url": "https://thenextweb.com/news/hugging-face-carbon-x-dna-ai-model"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Recursive 开源 Flint：笔记本上跑的 40B 编程 agent 模型",
+      "summary": "40B 总参、每 token 约 2.5B 激活的 MoE，官方称 Terminal-Bench 2.1 54.9%、SWE-bench Verified 74.2%，在 50B 以下 MoE 里领先，M4 Pro MacBook 上 125+ token/s，Apache 2.0。团队说是「少数人加 agent」不到四个月从零训出来的。注意：同尺寸稠密模型 Qwen 3.8 在 Terminal-Bench 上仍是 73.0，跑分均为发布方自测。",
+      "links": [
+        {
+          "label": "官方博客",
+          "url": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/RecursiveSI/flint"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112954861654557137"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Mirendil：一个研究员 + AI agent，3.5 个月预训练出编程基座模型",
+      "summary": "Mirendil 称其 Mirendil-Base（100B–500B 参数区间）由一名研究员带着 agent 完成，agent 写了 99% 以上的代码，总算力不到 1000 万美元，内部测试胜过 GLM-5.3。这是「agent 自动做研究」的又一个强信号，但目前没有公开权重、API 或第三方评测，先当公司自述看。",
+      "links": [
+        {
+          "label": "Mirendil 博客",
+          "url": "https://mirendil.com/news/pretraining-at-scale-without-a-pretraining-team/"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112977628105703829"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "SuperMimic：1 张 GPU、3 小时训出人形机器人全身动作跟踪",
+      "summary": "UC Berkeley 团队（Pieter Abbeel、Koushil Sreenath 组）用可微的世界模型训练，在 12.9 万段动作上超过此前要 128 张 GPU 跑 7 天的 SOTA，GPU 小时数降了 1000 倍以上，Unitree G1 户外零样本做出高难动作。算力不再是人形控制的主要门槛。",
+      "links": [
+        {
+          "label": "作者原帖",
+          "url": "https://x.com/qiayuanliao/status/2112936035911135695"
+        },
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2112971190847647871"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "传闻：Gemini 4 Carbon 已在 LMArena 灰测",
+      "summary": "X 上测试者晒出据称是 Gemini 4 Carbon 的 3D 体素场景、水面反射等作品，说比刚发布的 Argon 更细致但生成更慢、前端能力仍一般。Google 没有官宣，属于社区传闻，看个热闹。",
+      "links": [
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2112994544845472129"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "民调：57% 美国人认为 AI 对社会不好",
+      "summary": "据 X 新闻摘要引述的华盛顿邮报-ABC-Ipsos 民调（10 月 9-13 日，2545 人），57% 认为 AI 对社会整体有害，但对个人生活的看法五五开；三分之二反对新建数据中心、希望加强联邦监管。叠加 X 上「年轻人觉得 AI 很 cringe」的讨论，公众情绪和行业热度的反差越来越大。我还没找到民调原文，数字以原报道为准。",
+      "links": [
+        {
+          "label": "X 新闻摘要",
+          "url": "https://x.com/i/trending/2113265801503342721"
+        }
+      ]
+    }
+  ]
+}
