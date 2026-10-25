@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-25",
+  "title": "AI 日报",
+  "focus": "Claude Code 两位核心工程师同一天离职，X 上刷屏；DeepMind 挖出框架级 Softmax 数值 bug，Wiz 用前沿模型打出 PHP2Shell——人和基础设施两边同时在震。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Claude Code 双核心同日离职：Thariq 与桌面端作者 Anthony Morris",
+      "summary": "Thariq Shihipar（@trq212）10 月 24 日发帖确认离开 Anthropic，称在 Claude Code 干了一年多、产品规模远超想象，先休息再做新事；同日 Anthony Morris（@amorriscode）宣布 10 月 23 日是最后一天，自称创建了 Claude Code 桌面端。两人告别都偏温暖，未提原因；外媒把时间线和 Anthropic 据传 11 月中旬 IPO 放在一起讲，这是外界联想，不是公司官方说法。Thariq 原帖曝光已超 500 万。",
+      "links": [
+        {
+          "label": "Thariq 原帖",
+          "url": "https://x.com/trq212/status/2113844051938054167"
+        },
+        {
+          "label": "DigIntoAI",
+          "url": "https://digintoai.com/en/articles/anthony-morris-leaves-anthropic-claude-code"
+        },
+        {
+          "label": "Runtime Wire",
+          "url": "https://runtimewire.com/article/thariq-shihipar-and-anthony-morris-have-potentially-departed-anthropic"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2113813788738936986"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "DeepMind：标准 Softmax / Cross-Entropy 有两处数值 bug",
+      "summary": "Jonathan Barron 等发文指出 Softmax Collapse（高置信时目标梯度被舍入成 0，梯度不再和为零）和 Softmax Cancellation（蒸馏时师生 logit 接近仍有假梯度）。他们给出基于 softplus / expm1 / log1p 的修法，可消掉 grokking 里的 slingshot 尖峰，并稳住蒸馏。论文称 JAX/PyTorch 等主流实现都中招；这是作者说法，框架官方是否合入尚待跟进。",
+      "links": [
+        {
+          "label": "作者页",
+          "url": "https://jonbarron.info/softmaxfix/"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2610.31642"
+        },
+        {
+          "label": "X 讨论",
+          "url": "https://x.com/i/trending/2113764882625478865"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "PHP2Shell：前沿模型挖出影响约七成网站的 PHP 内核 RCE",
+      "summary": "Wiz 披露 CVE-2026-109618 / 109619，称用 Wiz Atlas、Gemini 4 Argon、GPT-5.6 Sol 把潜伏十多年的内存安全缺陷打成未认证 RCE，并在 WordPress / Drupal / Joomla 上演示；PHP 已于 10 月 21 日发补丁。Cloudflare 等部署了 WAF，CEO Matthew Prince 警告 AI 会让严重漏洞「每周都有」。这是 AI 攻防能力外溢到互联网底座的又一例，和昨日 OpenAI 训练环境断网形成同一主题。",
+      "links": [
+        {
+          "label": "Wiz",
+          "url": "https://www.wiz.io/blog/php2shell-php-rce"
+        },
+        {
+          "label": "PHP Foundation",
+          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+        },
+        {
+          "label": "Cloudflare",
+          "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114059501561160085"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic：该把多数子 agent 折回主循环了",
+      "summary": "官方工程文说，企业常按组织架构堆子 agent，结果上下文丢失、延迟翻倍、声音不统一；对比后「单 agent + skills + 工具」常更好、更便宜。子 agent 仍适合并行、隔离上下文和验证；并放出 Single Agent Loop Kit 做迁移。这是 Anthropic 自己的产品建议，不是独立评测结论。",
+      "links": [
+        {
+          "label": "Anthropic 工程文",
+          "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+        },
+        {
+          "label": "GitHub Kit",
+          "url": "https://github.com/anthropics/single-agent-loop-kit"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114330879086461367"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Agent Skills 捐给 Linux 基金会旗下 AAIF",
+      "summary": "Anthropic 10 月 22 日把 Agent Skills 开源标准（含名称、logo、GitHub org、agentskills.io）捐给与 Block、OpenAI 共建的 Agentic AI Foundation。官方称已有超 70 个平台接入、约 100 万 skills 发布、近 2.8 亿次安装；规格不变，不加入 AAIF 也能用。继 MCP 之后，又一个 agent 互操作标准进中立基金会。",
+      "links": [
+        {
+          "label": "Anthropic 官方",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+        },
+        {
+          "label": "Linux Foundation",
+          "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "OpenAI 与波兰 NASK 签 AI 安全合作",
+      "summary": "10 月 23 日 OpenAI 与波兰国家研究机构 NASK 签约，围绕前沿系统评测、漏洞发现与防护加强合作；NASK 的 AI Safety Research Center 充当波兰 AISI。此前 CERT Polska 已通过 Daybreak 用 OpenAI 模型挖出 MikroTik RouterOS 六处漏洞。这是官方合作声明，具体成果清单尚未公开。",
+      "links": [
+        {
+          "label": "OpenAI 官方",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+        },
+        {
+          "label": "NASK",
+          "url": "https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji"
+        },
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-nask-poland-ai-safety-research"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "千名数学家加入「人类数学协会」，拒绝给 AI 公司打工",
+      "summary": "New Scientist 报道 Association for Human Mathematics 已超 1000 人：多数承诺不为商业 AI 公司做技术活、不用聊天机器人写论文；约 650 人进「纯素」阵营，连证明也不用模型。背景是 OpenAI 本月一口气放 722 篇机器生成数学文，陶哲轩等批评「倾倒」伤及学科。OpenAI、Anthropic 未回应置评；规模仍小，但态度信号清晰。",
+      "links": [
+        {
+          "label": "New Scientist",
+          "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/"
+        },
+        {
+          "label": "AHM",
+          "url": "https://www.ahmath.org/"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114275689264271444"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "inclusionAI 开源医疗 MoE：Ling-3.0-flash-Sante",
+      "summary": "蚂蚁系 inclusionAI 放出 124B（每 token 激活 5.1B）医疗特化模型，256K 上下文，权重在 Hugging Face / ModelScope，MIT 许可。页面自报 HealthBench Professional 54.29、MedQA-USMLE 94.21 等；明确写「研究用、非医疗器械」，临床决策必须人工复核。这是发布方自报成绩，缺独立复现。",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114062233106063551"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "AI 循环融资再被盯：Broadcom 最高 420 亿贷款给 Anthropic 租芯片",
+      "summary": "Reuters 独家称 Broadcom 将向 Anthropic 提供最高约 420 亿美元融资以租赁其芯片，形成「卖芯片—贷资金—再买芯片」闭环；X 上 BIS 分析也被翻出来：2021–2025 年 AI 公司投资里约三成流向同行。有人比电信泡沫，也有人强调真实需求不同。Broadcom 贷款细节来自报道，不是双方正式新闻稿全文。",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/business/broadcom-lend-anthropic-up-42-billion-lease-its-chips-filing-says-2026-10-01/"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114179270192820666"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "开源权重占比图刷屏：中美实验室开闭源分野鲜明",
+      "summary": "一张「各实验室开源权重占比」图在 X 获数万浏览：DeepSeek 100%、Moonshot 约 90%，OpenAI / Google / Meta 个位数，Anthropic 与 xAI 为 0%。数据口径来自制图方，不是官方统计；但和本周 Kimi K3.1 Pro 冲榜、权重 11 月 4 日前开放的讨论叠在一起，把「开源能否追平前沿」又推到前台。",
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/gitghxst/status/2114131069750612191"
+        }
+      ]
+    }
+  ]
+}
