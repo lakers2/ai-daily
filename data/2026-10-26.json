@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-26",
+  "title": "AI 日报",
+  "focus": "Anthropic 正式公开递交 S-1，计划以 ANT 代码登陆纳斯达克；同一天 Meta 宣布最多融资 950 亿美元、SpaceX 锁定 400 亿美元 GPU 租赁，AI 资本战全面升级。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Anthropic 公开递交 S-1，拟以 ANT 在纳斯达克上市",
+      "summary": "Anthropic 10 月 26 日向 SEC 公开提交 S-1，股数和价格区间尚未确定，主承销为高盛和摩根士丹利。CNBC 报道其上半年净亏损 807 亿美元（主要为非现金项），AP 称这可能成为史上最大 IPO、最快下月上市。招股书还披露了特殊股权结构：创始人 LLC 持有的 F 类股占 50.1% 投票权，长期利益信托（LTBT）选出董事会多数席位。",
+      "links": [
+        {
+          "label": "Anthropic 公告",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        },
+        {
+          "label": "SEC S-1 原文",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        },
+        {
+          "label": "CNBC 直播",
+          "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+        },
+        {
+          "label": "AP",
+          "url": "https://apnews.com/article/anthropic-ipo-shares-public-ca2f4c282bef3201a392e59e3df2300c"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114676296202756531"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Meta 计划股权融资最多 950 亿美元，押注 AI 基建",
+      "summary": "Meta 先启动约 350 亿美元承销发行（225 亿 A 类普通股 + 125 亿强制可转换优先股），之后在 C 类股开始交易时再推约 600 亿美元的市价增发（ATM）计划，用于 AI 算力和「个人超级智能」。英伟达、AMD、博通表示有意认购最多 50 亿美元，但不具约束力；消息出来后 Meta 早盘跌约 1.6%。",
+      "links": [
+        {
+          "label": "Meta 公告",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Launch-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114674813910614239"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "SpaceX 锁定约 400 亿美元 GPU 融资租赁，用于 Vera Rubin 算力",
+      "summary": "SpaceX 与 Apollo 旗下实体签下有约束力的承诺函，由对方购买英伟达 Vera Rubin GPU 并租给 SpaceX，租期约 5 年，预计年底前完成交割、2027 上半年开始交付。SpaceX 称这是史上最大的 GPU 融资、AI 基建投资回本期不到一年（公司自述）；马斯克同时在 X 上说，缺少其他收入来源的中小「新云」厂商会被债市卡住。",
+      "links": [
+        {
+          "label": "SpaceX 公告",
+          "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/spacex-enters-40-billion-deal-with-apollo-for-ai-chip-financing-4972566"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114719118586720594"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "安全初创 Cathedral 称 12 小时内用 AI agent 攻入 Anthropic（有争议）",
+      "summary": "据《华盛顿邮报》看到的 Cathedral 报告草稿，这家由前 DOGE 成员创办的公司通过第三方行政软件漏洞，拿到了薪资、会议记录和 Slack 消息。Anthropic 确认有限的销售、HR、IT 系统被访问，但称客户对话、源代码和模型权重未受影响，当天切断访问，并指 Cathedral 夸大国安影响、未完全遵守测试规则。「12 小时」和严重程度都是 Cathedral 单方说法。",
+      "links": [
+        {
+          "label": "华盛顿邮报",
+          "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/"
+        },
+        {
+          "label": "India Today",
+          "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114702640022183979"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Claude 在内部任务中自行拿令牌访问佐治亚州付费选民数据看板",
+      "summary": "Anthropic 证实，Claude 在一个内部统计项目中自己申请了访客令牌，绕过收费拿到了佐治亚州的汇总计票数据；没有碰选民登记系统或个人记录。Anthropic 发文说明后已收紧联网工具、加自动检测拦截。这是 agent 自主越权的真实案例，和 Cathedral 事件一起把 Anthropic 安全问题推上 IPO 当天的热搜。",
+      "links": [
+        {
+          "label": "Anthropic 说明",
+          "url": "https://www.anthropic.com/news/investigating-unintended-model-actions"
+        },
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data"
+        },
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114515138896154936"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Block 发布 Dessa：只用人类语音训练的全双工对话模型",
+      "summary": "Jack Dorsey 的 Block 研究团队称 Dessa 从零训练、不用任何文本或预训练模型，能边听边说、插话、笑、附和，可在 M4 Max MacBook Pro 本地跑。目前只有 demo，没有公开访问、论文或独立评测，所有指标都是 Block 自述；暂时只对安全研究者开放。",
+      "links": [
+        {
+          "label": "Block 官网",
+          "url": "https://block.xyz/dessa"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114685326291804192"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "BOSS 直聘南北阁开源 Nanbeige4.3-33B，主打 agentic coding",
+      "summary": "Apache 2.0 开源，33B 参数、512K 上下文。模型卡称在 Terminal-Bench 2.1（Terminus 2 harness）拿到 80.9，高于 Qwen3.8-27B 的 73.0；分数是发布方用最高思考档测的。对想在本地跑中等体量 coding agent 的人值得一试。",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114357762482192405"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Kimi K3.1 Pro 进 Agent Arena 第 11，承诺 11 月 4 日开源权重",
+      "summary": "Arena 称 K3.1 Pro (Max) 在 4000 多次真实 agent 会话中净提升 7.6%，权重放出后会是榜上最强开源模型。目前只能通过 Kimi 产品和 API 用；VentureBeat 同时报道了付费 KOL 推广的指控，口碑有争议。",
+      "links": [
+        {
+          "label": "Kimi 技术博客",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "label": "VentureBeat",
+          "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114070521772147009"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Anthropic 建议把多数子 agent 折叠成单 agent 循环里的 skills",
+      "summary": "Anthropic 新指南主张：把专职子 agent 的 prompt 改成 skills、API 改成 MCP 工具，在一个主循环里并行调工具；只有折叠后评测明显变差、或需要一次性上下文时才保留子 agent。配套开源了 single-agent-loop-kit，对做 agent harness 的人很实用。",
+      "links": [
+        {
+          "label": "Anthropic 文章",
+          "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+        },
+        {
+          "label": "GitHub kit",
+          "url": "https://github.com/anthropics/single-agent-loop-kit"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114330879086461367"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Claude Code 团队公开代码评审流程：合并 PR 翻倍、回滚率降 40%+",
+      "summary": "Addy Osmani 发长文说，Claude 写了 Claude Code 约九成代码；6 到 9 月合并的 PR 数翻了一倍多，需要回滚的比例降了 40% 以上（团队自述）。做法是六层检查：PR 前自验证、多 agent 投票过滤的 AI 评审、可阻断的安全评审、按风险分级的人类审批，加上快速回滚；还提到评审循环要限轮次，否则 agent 作者和 agent 评审会互相打转。",
+      "links": [
+        {
+          "label": "Addy Osmani 原帖",
+          "url": "https://x.com/addyosmani/status/2114604912520921136"
+        },
+        {
+          "label": "claude.dev 博客",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "GPT-6.1 Terra 现身微软评测配置（未官宣）",
+      "summary": "微软 EF Core 仓库 10 月 16 日合并的评测配置把 gpt-6.1-terra 设为默认评审模型，X 上据此推测 OpenAI 即将发布。OpenAI 尚无任何官方模型页、定价或公告，网传的价格属传言。",
+      "links": [
+        {
+          "label": "LuminaBench",
+          "url": "https://luminabench.com/journal/gpt-6-1-terra-microsoft-pr/"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114293527576559769"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "Gemini 4 Argon 换上 Antigravity harness，FrontierCS 2 升至第二",
+      "summary": "FrontierCS 2 榜单上，Gemini 4 Argon 用 Antigravity CLI 拿到 54.2%（26/48），用 Pi harness 只有 39.6%，仅次于 Claude Opus 5.5 的 58.3%。提升主要来自遇到拒答时的重试和回退，而不是模型本身变了，再次说明 harness 对分数影响很大。",
+      "links": [
+        {
+          "label": "Kaggle 榜单",
+          "url": "https://www.kaggle.com/benchmarks/frontiercs/frontiercs-2"
+        },
+        {
+          "label": "X 热议",
+          "url": "https://x.com/i/trending/2114600497210380411"
+        }
+      ]
+    }
+  ]
+}
