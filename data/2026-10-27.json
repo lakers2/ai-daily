@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-27",
+  "title": "AI 日报",
+  "focus": "OpenAI 一天放出两枚重磅：宣称其系统推翻了「指数时间假设」等三项数学/物理发现（待独立验证），同时正式发布主打低价电脑操作的 GPT-6.1 Terra；资本面上，华尔街为 Anthropic 搭起 630 亿美元的 Broadcom 芯片融资结构。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "OpenAI 宣称三项新发现：推翻指数时间假设、证明 Kakeya 相关猜想、QFT 存在性证明（待验证）",
+      "summary": "OpenAI 研究员 Dan Roberts 发帖公布数学、计算机科学、物理三项发现，其中称给出 k-SAT 新算法、证伪 25 年历史的指数时间假设（ETH）。这是 OpenAI 自己的说法，数学和 CS 部分已附 Lean 形式化放上 GitHub，物理部分仍待审阅；结论若成立影响极大，目前仍需学界独立核验。",
+      "links": [
+        {
+          "label": "Dan Roberts 原帖",
+          "url": "https://x.com/danintheory/status/2114833682469122314"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114840848353656891"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 正式发布 GPT-6.1 Terra：快且便宜的电脑操作模型",
+      "summary": "官方称 Terra 在 Agents' Last Exam 上追平 GPT-6 Astra，每 token 价格只有其十分之一、完成任务快 3 倍以上，API 标准价比 GPT-5.6 Terra 低 50%；已向 Plus/Pro/Enterprise/Edu 和 Codex 推送，API 名 gpt-6.1-terra。性能数字均为 OpenAI 自报。",
+      "links": [
+        {
+          "label": "OpenAI 发布帖",
+          "url": "https://x.com/OpenAI/status/2114780711664398349"
+        },
+        {
+          "label": "基准与价格",
+          "url": "https://x.com/OpenAI/status/2114780717188272382"
+        },
+        {
+          "label": "可用范围",
+          "url": "https://x.com/OpenAI/status/2114780720170164735"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "630 亿美元：银行与 Blackstone 设 SPV 买 Broadcom 芯片租给 Anthropic",
+      "summary": "美银、花旗、摩根士丹利和 Blackstone 宣布设立特殊目的载体，购买 Broadcom 定制 XPU 和网络设备再租给 Anthropic，2027 年开始交付，Broadcom 自身也提供部分兜底。这是迄今最大的 AI 算力融资结构之一，也是 Anthropic IPO 前的又一笔大额算力锁定。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114837913443934381"
+        },
+        {
+          "label": "交易要点",
+          "url": "https://x.com/AIInvestHK/status/2114841016976965633"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "AMD 将出资 10 亿美元认购 Meta 股权融资",
+      "summary": "AMD 与 Meta 宣布深化合作，AMD 投资 10 亿美元参与 Meta 最多 950 亿美元的股权融资，Helios 机架方案已在 Meta 测试，双方还在做定制 Instinct GPU。加上此前英伟达 30 亿美元承诺，芯片供应商反过来入股客户的循环越来越明显。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115078808583733483"
+        },
+        {
+          "label": "快讯",
+          "url": "https://x.com/StelliumTape/status/2115071586441244843"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "新实验室 Mirendil 发布首个模型 Fern 0.1，号称 1000 万 token 上下文",
+      "summary": "由前 Anthropic、Google 研究员创办不到四个月的 Mirendil 发布从零预训练的 Fern 0.1，称可容纳约 50 万行代码，并透露 0.5–10T 参数的更大底座正在训练。需要注意：目前只开放早期访问申请，没有价格和权重，长上下文评测只公布了有限的 RULER 结果，团队自己也说 10M 还不如 1M 好用。",
+      "links": [
+        {
+          "label": "发布要点与保留意见",
+          "url": "https://x.com/FOMAnews/status/2114768270502895658"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114759230670422044"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Gemini 4 Argon 开始向 Antigravity IDE 用户推送",
+      "summary": "Google 开发者 Rody Davis 表示 Gemini 4 Argon 将在 24 小时内推送到 Antigravity，并会发布让其他 agent 调用 Gemini 能力的新工具；Google for Developers 同步放出用 Argon 自动化 Unity 资产管线的 demo。已有用户抱怨额度太低。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114931598944870798"
+        },
+        {
+          "label": "Unity demo",
+          "url": "https://x.com/googledevs/status/2114839491349225731"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Artificial Analysis 预告今天发布 Intelligence Index v5",
+      "summary": "Artificial Analysis 的 Mert Gulsun 连发预告，旧金山街头也出现广告牌，v5 将加入新的编程基准和私有数据集；社区都在等 Opus 5.5、GPT-6.1、Gemini 4 Argon 的新排名。截至发稿还未看到正式榜单，也有人猜是 Anthropic 新模型，属于未确认传闻。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114931602983993779"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "具身智能融资潮：Bedrock Robotics 6 亿美元 C 轮，Machenta 4000 万美元种子轮",
+      "summary": "做无人驾驶挖掘机的 Bedrock Robotics 以 41 亿美元估值完成 6 亿美元 C 轮，CapitalG 和 Emergence 领投；伦敦的 Machenta 走出隐身，称机器人看一次人类示范就能学会新任务，拿下英国纪录级种子轮。物理 AI 正在吸走越来越多资本。",
+      "links": [
+        {
+          "label": "Bedrock（Techmeme）",
+          "url": "https://x.com/Techmeme/status/2114742864915955950"
+        },
+        {
+          "label": "Machenta 汇总",
+          "url": "https://x.com/i/trending/2115042104917303684"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Unsloth 放出 MiniMax M3.1 Flash 量化版，428B 模型 150GB 内存可跑",
+      "summary": "Unsloth 发布 MiniMax M3.1 Flash 的 GGUF 量化，2-bit 版本约 150GB 内存即可本地运行，称精度保留 91.5%。对想在本地跑大模型做 agent 的人来说门槛又降了一截，数字来自发布方。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114796854936293740"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "千名数学家加入「人类数学协会」，抵制 AI 参与研究",
+      "summary": "Association for Human Mathematics 成员已过千人，其中 600 多人承诺研究中完全不用 AI，起因是 OpenAI 此前批量发布 AI 生成的数学论文。恰逢 OpenAI 又宣布 ETH 结果，X 上正反两派吵得很热闹。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114717287131562322"
+        },
+        {
+          "label": "反方吐槽",
+          "url": "https://x.com/francip/status/2114582459354628368"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "Dario Amodei 提出按真实价值而非 token 给 AI 定价",
+      "summary": "Anthropic CEO 设想：简单问答收几分钱，帮药企重新设计药物可以收几百万，而不是统一按 token 计费。正值 Anthropic 递交 S-1、披露上半年 163 亿美元收入，网友担心成本变得不可预测，也有人认为竞争会压住价格。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2114929697499083118"
+        }
+      ]
+    }
+  ]
+}
