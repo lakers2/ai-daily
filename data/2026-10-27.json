@@ -6,7 +6,7 @@
     {
       "rank": 1,
       "title": "OpenAI 宣称三项新发现：推翻指数时间假设、证明 Kakeya 相关猜想、QFT 存在性证明（待验证）",
-      "summary": "OpenAI 研究员 Dan Roberts 发帖公布数学、计算机科学、物理三项发现，其中称给出 k-SAT 新算法、证伪 25 年历史的指数时间假设（ETH）。这是 OpenAI 自己的说法，数学和 CS 部分已附 Lean 形式化放上 GitHub，物理部分仍待审阅；结论若成立影响极大，目前仍需学界独立核验。",
+      "summary": "OpenAI 研究员 Dan Roberts 发帖公布数学、计算机科学、物理三项发现，其中称给出 k-SAT 新算法、证伪指数时间假设（ETH）。这是 OpenAI 自己的说法，数学和 CS 部分已附 Lean 形式化放上 GitHub，物理部分仍待审阅；结论若成立影响极大，目前仍需学界独立核验。",
       "links": [
         {
           "label": "Dan Roberts 原帖",
@@ -32,8 +32,8 @@
           "url": "https://x.com/OpenAI/status/2114780717188272382"
         },
         {
-          "label": "可用范围",
-          "url": "https://x.com/OpenAI/status/2114780720170164735"
+          "label": "OpenAI Devs（API）",
+          "url": "https://x.com/OpenAIDevs/status/2114780986613682473"
         }
       ]
     },
@@ -100,7 +100,7 @@
     {
       "rank": 7,
       "title": "Artificial Analysis 预告今天发布 Intelligence Index v5",
-      "summary": "Artificial Analysis 的 Mert Gulsun 连发预告，旧金山街头也出现广告牌，v5 将加入新的编程基准和私有数据集；社区都在等 Opus 5.5、GPT-6.1、Gemini 4 Argon 的新排名。截至发稿还未看到正式榜单，也有人猜是 Anthropic 新模型，属于未确认传闻。",
+      "summary": "Artificial Analysis 发预告、旧金山街头也出现广告牌，v5 将加入新的编程基准和私有数据集；社区都在等 Opus 5.5、GPT-6.1、Gemini 4 Argon 的新排名。截至发稿还没看到正式榜单，具体内容以官方发布为准。",
       "links": [
         {
           "label": "X 新闻汇总",
@@ -111,7 +111,7 @@
     {
       "rank": 8,
       "title": "具身智能融资潮：Bedrock Robotics 6 亿美元 C 轮，Machenta 4000 万美元种子轮",
-      "summary": "做无人驾驶挖掘机的 Bedrock Robotics 以 41 亿美元估值完成 6 亿美元 C 轮，CapitalG 和 Emergence 领投；伦敦的 Machenta 走出隐身，称机器人看一次人类示范就能学会新任务，拿下英国纪录级种子轮。物理 AI 正在吸走越来越多资本。",
+      "summary": "做无人驾驶挖掘机的 Bedrock Robotics 以 41 亿美元估值完成 6 亿美元 C 轮，CapitalG 和 Emergence 领投；英国的 Machenta 走出隐身，称机器人看一次人类示范就能学会新任务，拿下英国纪录级种子轮。物理 AI 正在吸走越来越多资本。",
       "links": [
         {
           "label": "Bedrock（Techmeme）",
@@ -152,7 +152,7 @@
     {
       "rank": 11,
       "title": "Dario Amodei 提出按真实价值而非 token 给 AI 定价",
-      "summary": "Anthropic CEO 设想：简单问答收几分钱，帮药企重新设计药物可以收几百万，而不是统一按 token 计费。正值 Anthropic 递交 S-1、披露上半年 163 亿美元收入，网友担心成本变得不可预测，也有人认为竞争会压住价格。",
+      "summary": "Anthropic CEO 提出按 AI 实际创造的价值收费，而不是统一按 token 计费。正值 Anthropic 递交 S-1、披露上半年 163 亿美元收入，网友担心成本变得不可预测，也有人认为竞争会压住价格。",
       "links": [
         {
           "label": "X 新闻汇总",
