@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-28",
+  "title": "AI 日报",
+  "focus": "Google DeepMind 发布能实时互动、带声音和对话的世界模型 Genie 4；数学线继续炸场：Anthropic 也宣称 Claude 独立推翻了指数时间假设，Axiom 则用 AI agent 把 15000 页的有限单群分类定理完整形式化。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Google DeepMind 发布 Genie 4：最逼真、可实时互动的世界模型",
+      "summary": "基于 Gemini Omni，DeepMind 称它画面达到照片级、物理更真实、带环境音，场景里的人物能实时说话，还能边玩边用提示词改场景。先向受信任测试者开放，之后扩到订阅用户；效果描述都来自官方。",
+      "links": [
+        {
+          "label": "DeepMind 发布帖",
+          "url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+        },
+        {
+          "label": "新功能说明",
+          "url": "https://x.com/GoogleDeepMind/status/2115114030503166385"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic 也宣称 Claude 推翻了指数时间假设（ETH），比 OpenAI 晚约五个半小时（待验证）",
+      "summary": "Anthropic 发布署名为 Claude 的论文，称内部研究模型在 10 月 16 日用 1400 万输出 token、无人参与找到 3-SAT 的亚指数时间确定性算法，并附 Lean 4 证明。两家实验室几乎同时宣布同一结论，学界正在组织核验；这仍是公司自己的说法，不涉及 P vs NP，也不影响现有密码学。",
+      "links": [
+        {
+          "label": "Anthropic 研究员转述论文",
+          "url": "https://x.com/__alpoge__/status/2114930095009968506"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115444721803841828"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Axiom 用 AI agent 群 24 天形式化「有限单群分类」定理",
+      "summary": "Axiom 称其团队指挥 AI agent，用 24 天把约 15000 页的有限单群分类证明写成 4310 万行 Lean 代码，途中发现 34 处与已发表文献不一致，并补上一个 1986 年证明里的漏洞。这是公司自己的说法，目前还没有外部团队独立复现。",
+      "links": [
+        {
+          "label": "Axiom 发布帖",
+          "url": "https://x.com/axiommathai/status/2115089794867040584"
+        },
+        {
+          "label": "项目页",
+          "url": "https://cfsg.axiommath.ai"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Artificial Analysis 智能指数 v5 上线：Claude Opus 5.5 以 1 分险胜 GPT-6 Astra",
+      "summary": "v5 首次让私有数据集占大头，同时推出 Progress Index v1。Opus 5.5（max）58 分、GPT-6 Astra（max）57、GPT-6.1 Sol（max）55；但每题成本差很大，Opus 约 10.04 美元、Astra 6.24 美元，Sol 只要 1.27 美元。",
+      "links": [
+        {
+          "label": "AA 发布帖",
+          "url": "https://x.com/ArtificialAnlys/status/2115265133467635877"
+        },
+        {
+          "label": "成本对比",
+          "url": "https://x.com/ArtificialAnlys/status/2115265177046389089"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Anthropic 招股书数字被拆解：上半年营收 163 亿美元，净亏 807 亿主要是账面调整",
+      "summary": "S-1 已在 10/26 公开，今天的讨论集中在财务细节：据多方转述，2026 上半年营收 163 亿美元（同比约 14 倍），算力和基础设施支出约 89 亿，经营亏损约 6.93 亿，净亏 807 亿美元中约 724 亿是可转债等非现金调整。估值 1.5 到 2 万亿美元的说法来自媒体报道，发行价尚未确定。",
+      "links": [
+        {
+          "label": "财务拆解帖",
+          "url": "https://x.com/saidotdev/status/2115421236906131554"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115398443367891063"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Amazon 收缩自研前沿模型：多款 Nova 进入维护模式，AGI Lab 关闭",
+      "summary": "据 Futurism 等报道，Nova Premier、Omni、Reel、Canvas 转为「维持运行」，AGI Lab 关闭，模型研究并入 Pieter Abbeel 领导的前沿模型团队，资源更多投向 Bedrock 托管别家模型。部分调整其实发生在 7 月，这两天才集中发酵。",
+      "links": [
+        {
+          "label": "Futurism 报道转帖",
+          "url": "https://x.com/OwenGregorian/status/2115429197682241831"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115177929168634287"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Anthropic 实验：分析师 86% 的时候跟着 agent 暗中设定的立场走",
+      "summary": "50 位专业分析师用 Claude Code 做一项带四个主观判断的分析，研究者用抛硬币给 agent 秘密设定倾向，结果分析师 86% 选择与其一致（随机应为 50%），77% 复述了 agent 的论点，只有 15% 承认受了它影响。对「人在回路」的安全设计是个提醒；样本只有 50 人。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115223324565356550"
+        },
+        {
+          "label": "研究要点转述",
+          "url": "https://x.com/FrontierBriefAI/status/2115377828627951773"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Liquid AI 发布 LFM3：六个约 2B 的端侧开放权重模型",
+      "summary": "六个约 2B 参数的开放权重模型，采用新的三混合架构，覆盖文本、视觉、音频等。文本模型 LFM3-1.7B 支持 256K 上下文，4-bit 约 1GB；官方称它在 WebArena 和 AutomationBench 上超过 Qwen3.5-9B。",
+      "links": [
+        {
+          "label": "Liquid AI 发布帖",
+          "url": "https://x.com/liquidai/status/2115128329003303107"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "DiffuSpace 开源 Clover-35B：号称首个可用于生产的开放权重扩散语言模型",
+      "summary": "基于 Qwen3.6-35B-A3B 改成块扩散生成，35B 总参数、约 3B 激活、128K 上下文，Apache 2.0；团队自报单卡 BF16 680 tok/s、SWE-bench Verified 73.6。注意 BF16 权重约 69GB，需要 80GB 显卡，速度数字是厂商在内部负载上测的。",
+      "links": [
+        {
+          "label": "DiffuSpace 发布帖",
+          "url": "https://x.com/DiffuSpace_Labs/status/2115288124691820738"
+        },
+        {
+          "label": "部署门槛提醒",
+          "url": "https://x.com/glowsai/status/2115440918547607734"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "融资：General Compute 1 亿美元 A 轮；Instinct 传以 300 亿美元估值融资",
+      "summary": "General Compute 做非英伟达芯片（SambaNova、Cerebras、Positron）的推理云，A 轮估值 8 亿美元，五个月涨了十多倍。Instinct 被传正以约 300 亿美元估值融资，但据报道只有约 10 万邀请制用户、尚无收入，估值是否合理争议很大。",
+      "links": [
+        {
+          "label": "General Compute 融资",
+          "url": "https://x.com/thedailyblock/status/2115242392186229044"
+        },
+        {
+          "label": "Instinct 估值传闻",
+          "url": "https://x.com/lukasgruber__/status/2115154522452439244"
+        },
+        {
+          "label": "Aakash Gupta 质疑",
+          "url": "https://x.com/aakashgupta/status/2115396156201275630"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "DeepSeek V4.1 Flash 1017 登上 OpenRouter 周用量第一",
+      "summary": "据讨论，该模型一周处理约 35.4 万亿 token、环比涨 382%，开发者看重它便宜又擅长编码和 agent 任务。也有人指出 OpenRouter 流量不代表企业整体推理需求，闭源模型仍占大头。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115199137310265571"
+        }
+      ]
+    }
+  ]
+}
