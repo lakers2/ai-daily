@@ -107,7 +107,7 @@
     },
     {
       "rank": 7,
-      "title": "Mixpanel 创始人 Suhail 新公司 Particle 发布 particle-1",
+      "title": "Suhail 的新公司 Particle 发布 particle-1",
       "summary": "particle-1 基于 DeepSeek V4.1 Flash 1017 再做 RL，主打省 token：公司称性能持平的前提下少用约 45% 的 token，端到端完成任务更快，已上 OpenRouter。对做 agent 后训练的人来说，是「效率而非分数」路线的一个具体样本，数字目前是公司自报。",
       "links": [
         {
@@ -116,14 +116,14 @@
         },
         {
           "label": "技术细节说明",
-          "url": "https://x.com/Suhail/status/2115497953544864048"
+          "url": "https://x.com/Suhail/status/2115570981716852970"
         }
       ]
     },
     {
       "rank": 8,
       "title": "AI agent 主导完成一次小鼠脑部手术（待独立验证）",
-      "summary": "Exin Therapeutics 的 Gabriel Ocana-Santero 称，他们给 agent 19 种基因治疗载体、一只癫痫模型小鼠和带摄像头的电动手术台，agent 自己选药、选脑区、算坐标并注射 250 纳升，兽医逐步批准、手握急停。小鼠恢复良好；这是本人发帖，尚无同行评审。",
+      "summary": "Exin Therapeutics 的 Gabriel Ocana-Santero 称，他们给 agent 19 种基因治疗载体、一只癫痫模型小鼠和带摄像头的电动手术台，agent 自己选药、选脑区、算坐标并注射 250 纳升，每个不可逆步骤都由兽医批准。这是本人发帖，尚无同行评审。",
       "links": [
         {
           "label": "原帖",
