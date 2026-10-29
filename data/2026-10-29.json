@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-29",
+  "title": "AI 日报",
+  "focus": "Google 发布 Gemini 4 Carbon，以 59 分登顶 Artificial Analysis 智能指数 v5；同一天微软和谷歌的财报都显示云业务被 AI 推着猛涨，但谷歌搜索放缓、自由现金流转负，盘后股价大跌。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Google 发布 Gemini 4 Carbon：AA 智能指数 v5 第一",
+      "summary": "距 Argon 只隔约两周，Google 称 Carbon 在网络安全和长周期任务上达到新 SOTA。第三方 Artificial Analysis 测得它以 59 分排第一（比 Argon 高 9 分），编码 agent 指数 59 分仅次于 Claude Code + Opus 5.5（62），每题成本 7.76 美元；但它答对更多的同时幻觉率也从 4% 升到 11%。",
+      "links": [
+        {
+          "label": "Google 发布帖",
+          "url": "https://x.com/Google/status/2115489522603466766"
+        },
+        {
+          "label": "DeepMind 发布帖",
+          "url": "https://x.com/GoogleDeepMind/status/2115489356437651654"
+        },
+        {
+          "label": "Artificial Analysis 评测",
+          "url": "https://x.com/ArtificialAnlys/status/2115494553780367384"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "微软、谷歌财报：云业务被 AI 拉爆，市场反应两极",
+      "summary": "微软称 Microsoft Cloud 收入超 630 亿美元、增速提到 30%，X 上汇总的数据是 Azure 增长 48%，盘后上涨。谷歌营收 1276 亿美元略低于预期，Google Cloud 增长 103% 至 307 亿美元，但搜索只增 12%、资本开支 514 亿美元让自由现金流转负，盘后跌约 9%；Gemini app 月活 9.5 亿也引发「到底谁在用」的争论。",
+      "links": [
+        {
+          "label": "Satya Nadella 财报帖",
+          "url": "https://x.com/satyanadella/status/2115577764300693644"
+        },
+        {
+          "label": "X 新闻：Alphabet 财报",
+          "url": "https://x.com/i/trending/2115537951639662874"
+        },
+        {
+          "label": "X 新闻：Gemini 月活争议",
+          "url": "https://x.com/i/trending/2115709970243268816"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "报道称 Kimi K3.1 Pro 和 DeepSeek V4.1 Flash 蒸馏了 GPT-6 Astra（未证实）",
+      "summary": "据 The Information（Reuters 转述）引述知情人士，Anthropic 大幅封堵对 Claude 的蒸馏后，月之暗面和 DeepSeek 转向大量调用 OpenAI 的 GPT-6 Astra 来训练新模型。三家公司都未回应，这仍是单一信源报道；它把「蒸馏算不算抄袭」的中美之争又推上热搜。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115640742290821601"
+        },
+        {
+          "label": "Reuters 转述帖",
+          "url": "https://x.com/Chahatusharma/status/2115672444014879225"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "GitHub Universe：Copilot Fusion 自动选模型，agent 已发起 40%+ 的 PR",
+      "summary": "GitHub 推出按每条提示自动路由模型的 Copilot Fusion，自称在 AA 编码 agent 指数上距 Claude Code + Opus 5.5 只差两分、单任务成本约一半。GitHub 还给出数据：9 月 agent 发起的 PR 超过 40%（约 1.1 亿个），3 月只有 17%，写代码的瓶颈正在变成审代码。",
+      "links": [
+        {
+          "label": "GitHub：Copilot Fusion",
+          "url": "https://x.com/github/status/2115480207469560109"
+        },
+        {
+          "label": "Satya 的 Universe 总结",
+          "url": "https://x.com/satyanadella/status/2115490856685990244"
+        },
+        {
+          "label": "GitHub 主题演讲回顾",
+          "url": "https://x.com/github/status/2115604080340988271"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "ChatGPT Pro 明天起用量砍半，重度用户不满（有争议）",
+      "summary": "多方转述 OpenAI 邮件：10 月 30 日起 200 美元的 Pro 在 Work 和 Codex 里的额度从 Plus 的 20 倍降到 10 倍，GPT-6 Pro 每周消息从 200 降到 100，价格不变，另送约 2500 美元的一次性额度。但也有人指出官方帮助页只写了「更低的用量」，没写具体数字；不少开发者扬言转去 Claude。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115253121404281073"
+        },
+        {
+          "label": "帮助页原文的不同解读",
+          "url": "https://x.com/harnessnotes/status/2115476959480197325"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "阿里云 CTO 台上预告「Qwen4 下周发布」",
+      "summary": "据阿姆斯特丹云栖大会现场观众转述，阿里云 CTO 说 Qwen4 下周到来，幻灯片列出 Max、Plus、Flash 和 27B 四款，Qwen Code 代码里已给 qwen4 默认 100 万上下文。27B 能单卡本地跑最受关注；不过官方还没正式发布，此前也多次「下周」落空。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115776139369304510"
+        },
+        {
+          "label": "现场幻灯片转述",
+          "url": "https://x.com/koltregaskes/status/2115782200855761196"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Mixpanel 创始人 Suhail 新公司 Particle 发布 particle-1",
+      "summary": "particle-1 基于 DeepSeek V4.1 Flash 1017 再做 RL，主打省 token：公司称性能持平的前提下少用约 45% 的 token，端到端完成任务更快，已上 OpenRouter。对做 agent 后训练的人来说，是「效率而非分数」路线的一个具体样本，数字目前是公司自报。",
+      "links": [
+        {
+          "label": "Suhail 发布帖",
+          "url": "https://x.com/Suhail/status/2115497949421883648"
+        },
+        {
+          "label": "技术细节说明",
+          "url": "https://x.com/Suhail/status/2115497953544864048"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "AI agent 主导完成一次小鼠脑部手术（待独立验证）",
+      "summary": "Exin Therapeutics 的 Gabriel Ocana-Santero 称，他们给 agent 19 种基因治疗载体、一只癫痫模型小鼠和带摄像头的电动手术台，agent 自己选药、选脑区、算坐标并注射 250 纳升，兽医逐步批准、手握急停。小鼠恢复良好；这是本人发帖，尚无同行评审。",
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/OcanaSantero/status/2115442964574908902"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "融资：Cognition 洽谈 700–800 亿美元估值，微软发 250 亿美元债",
+      "summary": "Business Insider 独家称 Devin 母公司 Cognition 在谈新一轮融资，估值 700–800 亿美元，距上轮 480 亿美元才几周。微软时隔七年大举发债至少 250 亿美元投 AI 基建；Foundry Robotics 拿下 1 亿美元 A 轮做自动化工厂。同时数据中心债务收益率普遍升到两位数，AI 基建融资开始变贵。",
+      "links": [
+        {
+          "label": "Business Insider 独家",
+          "url": "https://x.com/BusinessInsider/status/2115487098287669389"
+        },
+        {
+          "label": "X 新闻：微软发债",
+          "url": "https://x.com/i/trending/2115777966948971005"
+        },
+        {
+          "label": "X 新闻：AI 债务承压",
+          "url": "https://x.com/i/trending/2115506903396606344"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "智元机器人发布会：提出 Worken 指标衡量机器人真实产出",
+      "summary": "智元在 10 月 29 日的发布会上提出 Worken（有效智能工时 = 在岗机器人数 × 自主工作时长 × 任务效率），主张用真实干活量而不是出货量评价机器人，同时发布 AHA3 人形平台、GO-3 模型、G2 Max 工业机器人等。",
+      "links": [
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115713039383298197"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "ChatGPT 将合并 Chat 和 Work 模式，Pro 用户可用短信找 dots",
+      "summary": "部分用户短暂看到「Chat 和 Work 合二为一」的开关后被撤回，OpenAI 的 Tibo 确认在做、但今年内才会谨慎推出。另外美国 Pro 用户已能通过 iMessage/RCS 直接给自己的个人 agent「dots」发消息派活。",
+      "links": [
+        {
+          "label": "Tibo 回应",
+          "url": "https://x.com/thsottiaux/status/2115588390414581916"
+        },
+        {
+          "label": "Tibo：给 dot 发短信",
+          "url": "https://x.com/thsottiaux/status/2115622002581188681"
+        }
+      ]
+    }
+  ]
+}
