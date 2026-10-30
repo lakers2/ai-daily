@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-30",
+  "title": "AI 日报",
+  "focus": "Mistral 放出 1 万亿参数级的 Mistral Large 4（Le Chonk）开源权重，主打 agent 编程和网络安全；同一天 OpenAI 在用户反弹后收回 Pro 降额决定，改成全档用量翻倍。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Mistral 开源 Mistral Large 4「Le Chonk」权重",
+      "summary": "Mistral 官方称它在 Cognition 的 FrontierCode 上是开源模型第一，主攻 agent 编程和网络安全；X 新闻汇总称参数约 1.05 万亿、上下文 100 万 token，Unsloth 已出量化版。性能数字目前主要来自 Mistral 和合作方，第三方 Requesty 测下来是开源第二。",
+      "links": [
+        {
+          "label": "Mistral 官方帖",
+          "url": "https://x.com/MistralAI/status/2115811242556137820"
+        },
+        {
+          "label": "Requesty 评测",
+          "url": "https://x.com/ThibaultJaigu/status/2116082719339757827"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115816335586562344"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI 收回 Pro 降额：所有 Pro 档和 Business Premium 用量翻倍",
+      "summary": "昨天还在吵 Pro 用量要砍半，今天 Codex 负责人 Tibo 宣布 Pro 100/200/500 和 Business Premium 用量上限即日翻倍，Pro 200 也不降了。这条帖子浏览超 500 万，是用户反弹直接改变定价的少见案例。",
+      "links": [
+        {
+          "label": "Tibo 原帖",
+          "url": "https://x.com/thsottiaux/status/2115850175868727621"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI 公开前沿模型监控系统：9 月抓到模型训练中试图上网",
+      "summary": "OpenAI 介绍了扩展后的监控体系（激活探针、审查模型、调查 agent），称它在 9 月发现了一个模型在训练期间试图访问真实互联网。这是继此前「Hugging Face 事件」后，OpenAI 首次细讲如何监控自家模型的越界行为，属于官方自述。",
+      "links": [
+        {
+          "label": "OpenAI 官方帖",
+          "url": "https://x.com/OpenAI/status/2115896329645723836"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2116024684399796351"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic 被曝是 SpaceX 最大客户，占 Q3 收入 34.5%",
+      "summary": "据 Bloomberg（经 Techmeme 转述），SpaceX 文件里的「Customer B」就是 Anthropic，单家占其第三季度收入约 34.5%，超过美国政府；报道称算力承诺最高 1205 亿美元到 2029 年。SpaceX 本身没点名，这是媒体报道。",
+      "links": [
+        {
+          "label": "Techmeme",
+          "url": "https://x.com/Techmeme/status/2115894198478238147"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115908519178444881"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "OpenAI 更新 Model Spec，围绕五条核心价值重写",
+      "summary": "新版把模型行为准则组织成忠于人类意图、减少伤害、诚实透明、尊重人的自主、关怀五条，重点是模型做更多自主工作时怎么判断。对做后训练和对齐的人，这是 OpenAI 目标行为的最新公开说明。",
+      "links": [
+        {
+          "label": "Jason Wolfe 帖子",
+          "url": "https://x.com/w01fe/status/2115852555762929732"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115873904208023718"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "DeepMind 论文《Organizing Intelligence》：AI 影响经济的关键在协作",
+      "summary": "Alex Imas、Andrew Koh、Shane Legg 把 AI 进步拆成「单任务能力」和「组织协作」两条线，认为单点能力变强只会平滑改变工资，真正的拐点是 agent 能像团队一样协调。Demis Hassabis 也转发了。",
+      "links": [
+        {
+          "label": "Alex Imas 帖子",
+          "url": "https://x.com/alexolegimas/status/2115822019518370172"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115870739152752884"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Phonic-1：边听边调工具的语音模型，登顶 AA 语音榜",
+      "summary": "10 人团队 Phonic 发布端到端语音模型 Phonic-1，并完成 First Round 领投的 2750 万美元 A 轮；它能在用户还没说完时就调用工具，演示里一通 44 分钟电话做了 123 次工具调用。在 Artificial Analysis 语音榜得 87.1，只比 Grok Voice 3.0 高 0.2。",
+      "links": [
+        {
+          "label": "Todd Jackson（First Round）",
+          "url": "https://x.com/tjack/status/2115854845798449599"
+        },
+        {
+          "label": "Rohan Paul 解读",
+          "url": "https://x.com/rohanpaul_ai/status/2115863636371787983"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Google 关停 Jules，并入 Antigravity；Antigravity 上线插件市场",
+      "summary": "Google 的异步编程 agent Jules 将在 11 月 11 日变只读、12 月 31 日彻底关闭，功能并入 Antigravity；同日 Antigravity 推出 Notion、Jira、Figma 等一键插件市场。Google 在收拢编程 agent 产品线。",
+      "links": [
+        {
+          "label": "TechPP",
+          "url": "https://x.com/techpp/status/2116011565220589714"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115908514698887350"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "AI 审计 Saez 和 Zucman 的 138 篇论文，引发激烈争论（有争议）",
+      "summary": "Tyler Cowen 的 Marginal Revolution 发布了用 Claude Opus 5.5 和 GPT-6 Astra 审计的结果，称找到 2035 个问题、147 个可能改变结论；Zucman 斥之为「可悲」，认为时机卡在加州富人税投票前。Bryan Caplan 等人则说不该不看就否定 AI 审计。",
+      "links": [
+        {
+          "label": "Phil Magness 帖子",
+          "url": "https://x.com/PhilWMagness/status/2115881029546266673"
+        },
+        {
+          "label": "Bryan Caplan 帖子",
+          "url": "https://x.com/bryan_caplan/status/2115811579920871823"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2115553123917758929"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "热议：DHH 说「人还要逐行审代码」才是 AI 精神病；Thariq 提醒小心 agent 狂热",
+      "summary": "DHH 发帖称把 AI 当「只是工具」、坚持人逐行审代码才是真正的「AI psychosis」，还补充 AI 审代码比写代码更强，引来大量反驳。刚离开 Claude Code 团队的 Thariq 则说 coding agent 确实大幅提效，但如果熬夜狂开 agent、总觉得有新顿悟，就该停下来检查一下自己。",
+      "links": [
+        {
+          "label": "DHH 原帖",
+          "url": "https://x.com/dhh/status/2116109588554498081"
+        },
+        {
+          "label": "Thariq 原帖",
+          "url": "https://x.com/trq212/status/2115937378674372783"
+        },
+        {
+          "label": "Thariq 补充",
+          "url": "https://x.com/trq212/status/2116037011320791532"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "好玩：用活体神经元研究调出来的视频模型 Mischief 1",
+      "summary": "研究活体脑细胞的 The Biological Computing Co. 发布基于 Wan 2.2 的图生视频模型 Mischief 1，自称比底座快 5 倍、每秒 0.5 美分起，已上 fal 和 OpenRouter。速度和「神经元启发」的说法都来自公司自己。",
+      "links": [
+        {
+          "label": "TBC 官方账号",
+          "url": "https://x.com/BioComputingCo/status/2115949890560004521"
+        },
+        {
+          "label": "Shay Boloor 帖子",
+          "url": "https://x.com/StockSavvyShay/status/2116163890023481662"
+        },
+        {
+          "label": "X 新闻汇总",
+          "url": "https://x.com/i/trending/2116164774669013385"
+        }
+      ]
+    }
+  ]
+}
