@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-31",
+  "title": "AI 日报",
+  "focus": "Claude 把 Max 20x 改名 Ultra 并取消已验证账号的 5 小时用量上限；同一天苹果官宣 Apple Intelligence 将登陆中国大陆（接入千问），Anthropic 用 Claude agent 自动化「隐蔽错位」红队测试。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Claude：Max 20x 改名 Ultra，已验证账号取消 5 小时上限",
+      "summary": "Anthropic 官方宣布套餐更名：Max 5x→Max（$100）、Max 20x→Ultra（$200），价格不变；已验证的 Ultra 账号从今天起去掉 5 小时用量帽（周限额仍在），新账号核验前暂保留上限防欺诈。原帖约 3 万赞，是近期 Claude 产品侧最受关注的改动。",
+      "links": [
+        {
+          "label": "Claude 官方帖",
+          "url": "https://x.com/claudeai/status/2116220869479428500"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "苹果官宣 Apple Intelligence 登陆中国大陆，接入阿里千问",
+      "summary": "苹果中国新闻室称，首批 Apple 智能功能将于 11 月 4 日随开发者 Beta 在中国开放测试，12 月随 iOS 27.3 正式上线；实时翻译、写作工具、视觉智能等可接入阿里巴巴通义千问。新一代能跨应用操作的 Siri 仍未在此次首发之列，内容属官方自述。",
+      "links": [
+        {
+          "label": "苹果中国新闻室",
+          "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Project Suncatcher：轨道上首个完整 TPU 推理往返",
+      "summary": "Google CEO Sundar Pichai 宣布，原型卫星升空数周后，团队已向轨道发送指令、启动机载 TPU、跑完 prompt，并收到地球上的第一条完整回复——一首俳句。这是「太空算力」从发射到真正跑通推理的里程碑；后续双星阶段排在 2027 年。",
+      "links": [
+        {
+          "label": "Sundar Pichai 原帖",
+          "url": "https://x.com/sundarpichai/status/2116214866444943853"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic：用上千 Claude agent 自动化隐蔽错位红队",
+      "summary": "新研究让大量 Claude agent 写训练数据，目标是让小研究模型变得错位，同时骗过类似生产环境的数据监控；足够多轮后成功，多靠把行为藏进小说与角色扮演。研究模型从未部署，例子将用来加固未来监控——属官方对齐实验自述。",
+      "links": [
+        {
+          "label": "Anthropic 官方帖",
+          "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+        },
+        {
+          "label": "研究原文",
+          "url": "https://alignment.anthropic.com/2026/automated-em-search/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Vercel Labs 开源 agent-desktop：编程 agent 可操控整台桌面",
+      "summary": "Chris Tate 发布 agent-desktop，自称「整机版 agent-browser」：经系统辅助功能树读 UI，而不是靠截图像素猜；支持 macOS/Windows/Linux，可后台并行多 agent 各带光标。原帖约 5500 赞，对做 computer-use / coding agent 的人很直接。",
+      "links": [
+        {
+          "label": "Chris Tate 原帖",
+          "url": "https://x.com/ctatedev/status/2116323148706771302"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/vercel-labs/agent-desktop"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "OpenAI 定价页出现 gpt-6-astra-law 法律配置",
+      "summary": "API 定价文档新增「Legal model configurations」，列出 gpt-6-astra-law，价格与 GPT-6 Astra 同档（约 $10/$50 每百万 token），促销价至少到 2026-12-31。这是 Astra 首个公开的专业域配置；尚无单独发布博文，以定价页为准。",
+      "links": [
+        {
+          "label": "OpenAI 定价页",
+          "url": "https://platform.openai.com/docs/pricing"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "商汤开源 SenseNova Loop-9B-Preview：循环 Transformer",
+      "summary": "SenseNova 在 Hugging Face 放出 9B 参数共享循环结构模型，并引入 mHC；公司自称在自家 WorkBuddy / RaccoonPPT / AutomationBench 上可摸到 27B 级表现。数字来自商汤自测，权重 Apache 2.0，适合关注小参数长上下文与 agent 的人。",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Sperid Labs 开源 Idol：单图秒级生成 3D Gaussian splat",
+      "summary": "Idol 把一张物体图变成标准 .ply 高斯溅射（最多约 100 万 Gaussians），含未见侧面；模型卡称约 7.2GB 显存、可在 2 秒内出结果，Apache 2.0。对 3D 内容生成与本地消费级 GPU 工作流是务实一步。",
+      "links": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/speridlabs/idol"
+        },
+        {
+          "label": "项目页",
+          "url": "https://speridlabs.com/research/idol"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "RightNow 发布 System Zero：流式决策模型",
+      "summary": "YC F26 创业公司 RightNow 推出 System Zero，可边接收文本/JSON/PDF/图像/语音/代码库/机器人状态/视频，边输出带选项概率的决策；公司称文本决策约 30ms、单次最多 1024 问。定位为 System 1/2 之前的「决策层」，数字属官方自述。",
+      "links": [
+        {
+          "label": "RightNow 官网",
+          "url": "https://rightnowai.co"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "Artificial Analysis 更新 Omniscience v1.1，Carbon 仍领跑",
+      "summary": "AA 把知识/幻觉榜 Omniscience 收到 v1.1，并开源 300 题公开集；公司称 Gemini 4 Carbon (high) 净分 54 居首，Claude Opus 5.5 与 Fable 5.1 紧随。榜单方法与题目是 AA 自己的，适合当横向参考而非绝对真理。",
+      "links": [
+        {
+          "label": "DailyCited 汇总",
+          "url": "https://dailycited.com/d/2026-10-31/"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "X 热议：编码 agent「忙碌幻觉」与企业缺上下文",
+      "summary": "前 Anthropic Claude Code 工程师 Thariq 等人讨论：多 agent 管理容易制造「一直在干活」的假象；Databricks CEO 等则强调企业卡在私有上下文，而不是模型不够聪明。这是产品与组织侧讨论，不是新模型发布。",
+      "links": [
+        {
+          "label": "X 新闻汇总·agent mania",
+          "url": "https://x.com/i/trending/2116090973881037136"
+        },
+        {
+          "label": "X 新闻汇总·企业上下文",
+          "url": "https://x.com/i/trending/2116375030061805897"
+        }
+      ]
+    }
+  ]
+}
